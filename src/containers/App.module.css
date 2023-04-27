@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  padding: 30px 100px;
+}
+
+@font-face {
+  font-family: JosefSansBold;
+  src: url(../fonts/JosefinSans-Bold.ttf)
+}
+
+
+@font-face {
+  font-family: JosefSansRegular;
+  src: url(../fonts/JosefinSans-Regular.ttf)
+}
+
+@font-face {
+  font-family: JosefSansSemiBold;
+  src: url(../fonts/JosefinSans-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: JosefSansMedium;
+  src: url(../fonts/JosefinSans-Medium.ttf)
+}
