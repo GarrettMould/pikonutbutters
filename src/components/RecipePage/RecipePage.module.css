@@ -32,16 +32,12 @@
 }
 
 .productName { 
+    text-align: start;
     padding: 20px 0px 10px 0px;
     font-size: 120%;
     font-family: JosefSansSemiBold;
 }
 
-.productPrice { 
-    padding-bottom: 10px;
-    font-size: 110%; 
-    font-family: JosefSansRegular;
-}
 
 .button { 
     border: none; 

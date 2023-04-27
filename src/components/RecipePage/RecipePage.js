@@ -15,7 +15,7 @@ const RecipePage = () => {
             <Card className={classes.card}>
                 <div className={classes.square}></div>
                 <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
+                    <div className={classes.productName}>Peanut Butter Banana Smoothie</div>
                 </div>
             </Card>
             </Col>
@@ -23,7 +23,7 @@ const RecipePage = () => {
             <Card className={classes.card}>
                 <div className={classes.square}></div>
                 <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
+                    <div className={classes.productName}>Coconut Almond Butter Smoothie Bowl</div>
                 </div>
             </Card>
             </Col>
@@ -31,7 +31,7 @@ const RecipePage = () => {
             <Card className={classes.card}>
                 <div className={classes.square}></div>
                 <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
+                    <div className={classes.productName}>Peanut Butter Cookies</div>
                 </div>
             </Card>
             </Col>
@@ -42,7 +42,7 @@ const RecipePage = () => {
             <Card className={classes.card}>
                 <div className={classes.square}></div>
                 <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
+                    <div className={classes.productName}>Peanut Butter Dipping Sauce</div>
                 </div>
             </Card>
             </Col>
@@ -50,15 +50,7 @@ const RecipePage = () => {
             <Card className={classes.card}>
                 <div className={classes.square}></div>
                 <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
-                </div>
-            </Card>
-            </Col>
-            <Col xs={4} className={classes.col}>
-            <Card className={classes.card}>
-                <div className={classes.square}></div>
-                <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
+                    <div className={classes.productName}>Baked Oats w/ Peanut Butter</div>
                 </div>
             </Card>
             </Col>

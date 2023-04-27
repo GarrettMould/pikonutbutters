@@ -14,30 +14,36 @@ const ProductPage = () => {
         <Row className={classes.row}>
             <Col xs={4} className={classes.col}>
             <Card className={classes.card}>
-                <div className={classes.square}></div>
+                <div className={classes.square}>
+                    <div className={classes.size}>220g</div>
+                </div>
                 <div className={classes.containerProductInfo}>
                     <div className={classes.productName}>All-Natural Peanut Butter</div>
-                    <div className={classes.productPrice}>180,000 vnd</div>
+                    <div className={classes.productPrice}>60,000 vnd</div>
                     <button className={classes.button}>Add to Cart</button>
                 </div>
             </Card>
             </Col>
             <Col xs={4} className={classes.col}>
                 <Card className={classes.card}>
-                    <div className={classes.square}></div>
+                    <div className={classes.square}>
+                    <div className={classes.size}>380g</div>
+                    </div>
                     <div className={classes.containerProductInfo}>
                         <div className={classes.productName}>All-Natural Peanut Butter</div>
-                        <div className={classes.productPrice}>180,000 vnd</div>
+                        <div className={classes.productPrice}>100,000 vnd</div>
                         <button className={classes.button}>Add to Cart</button>
                     </div>
                 </Card>
             </Col>
             <Col xs={4} className={classes.col}>
                 <Card className={classes.card}>
-                    <div className={classes.square}></div>
+                    <div className={classes.square}>
+                    <div className={classes.size}>220g</div>
+                    </div>
                     <div className={classes.containerProductInfo}>
-                        <div className={classes.productName}>All-Natural Peanut Butter</div>
-                        <div className={classes.productPrice}>180,000 vnd</div>
+                        <div className={classes.productName}>All-Natural Almond Butter</div>
+                        <div className={classes.productPrice}>125,000 vnd</div>
                         <button className={classes.button}>Add to Cart</button>
                     </div>
                 </Card>
@@ -46,30 +52,24 @@ const ProductPage = () => {
         <Row className={classes.row}>
             <Col xs={4} className={classes.col}>
             <Card className={classes.card}>
-                <div className={classes.square}></div>
+                <div className={classes.square}>
+                    <div className={classes.size}>380g</div>
+                </div>
                 <div className={classes.containerProductInfo}>
-                    <div className={classes.productName}>All-Natural Peanut Butter</div>
-                    <div className={classes.productPrice}>180,000 vnd</div>
+                    <div className={classes.productName}>All-Natural Almond Butter</div>
+                    <div className={classes.productPrice}>175,000 vnd</div>
                     <button className={classes.button}>Add to Cart</button>
                 </div>
             </Card>
             </Col>
             <Col xs={4} className={classes.col}>
                 <Card className={classes.card}>
-                    <div className={classes.square}></div>
-                    <div className={classes.containerProductInfo}>
-                        <div className={classes.productName}>All-Natural Peanut Butter</div>
-                        <div className={classes.productPrice}>180,000 vnd</div>
-                        <button className={classes.button}>Add to Cart</button>
+                    <div className={classes.square}>
+                    <div className={classes.size}>220g</div>
                     </div>
-                </Card>
-            </Col>
-            <Col xs={4} className={classes.col}>
-                <Card className={classes.card}>
-                    <div className={classes.square}></div>
                     <div className={classes.containerProductInfo}>
-                        <div className={classes.productName}>All-Natural Peanut Butter</div>
-                        <div className={classes.productPrice}>180,000 vnd</div>
+                        <div className={classes.productName}>Cacao Almond Butter</div>
+                        <div className={classes.productPrice}>175,000 vnd</div>
                         <button className={classes.button}>Add to Cart</button>
                     </div>
                 </Card>
