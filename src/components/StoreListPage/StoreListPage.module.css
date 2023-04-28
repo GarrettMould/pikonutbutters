@@ -2,6 +2,13 @@
     margin-top: 50px;
     padding-left: 0 !important;
 }
+
+.message { 
+    text-align: start;
+    font-size: 130%;
+    line-height: 180%;
+    font-family: JosefSansRegular;
+}
 .list { 
     margin-top: 30px;
     width: 100%; 

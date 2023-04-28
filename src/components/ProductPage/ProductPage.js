@@ -20,7 +20,6 @@ const ProductPage = () => {
                 <div className={classes.containerProductInfo}>
                     <div className={classes.productName}>All-Natural Peanut Butter</div>
                     <div className={classes.productPrice}>60,000 vnd</div>
-                    <button className={classes.button}>Add to Cart</button>
                 </div>
             </Card>
             </Col>
@@ -32,7 +31,7 @@ const ProductPage = () => {
                     <div className={classes.containerProductInfo}>
                         <div className={classes.productName}>All-Natural Peanut Butter</div>
                         <div className={classes.productPrice}>100,000 vnd</div>
-                        <button className={classes.button}>Add to Cart</button>
+
                     </div>
                 </Card>
             </Col>
@@ -44,7 +43,7 @@ const ProductPage = () => {
                     <div className={classes.containerProductInfo}>
                         <div className={classes.productName}>All-Natural Almond Butter</div>
                         <div className={classes.productPrice}>125,000 vnd</div>
-                        <button className={classes.button}>Add to Cart</button>
+
                     </div>
                 </Card>
             </Col>
@@ -58,7 +57,6 @@ const ProductPage = () => {
                 <div className={classes.containerProductInfo}>
                     <div className={classes.productName}>All-Natural Almond Butter</div>
                     <div className={classes.productPrice}>175,000 vnd</div>
-                    <button className={classes.button}>Add to Cart</button>
                 </div>
             </Card>
             </Col>
@@ -70,7 +68,7 @@ const ProductPage = () => {
                     <div className={classes.containerProductInfo}>
                         <div className={classes.productName}>Cacao Almond Butter</div>
                         <div className={classes.productPrice}>175,000 vnd</div>
-                        <button className={classes.button}>Add to Cart</button>
+
                     </div>
                 </Card>
             </Col>
