@@ -21,7 +21,7 @@ const Footer = () => {
                             <div className={classes.menuItem}><Link to="/stores" style={{ textDecoration: 'none', color: "black"  }}>Find in Stores</Link></div>
                         </div>
                     </Col>
-                    <Col xs={3} className={classes.justifyEnd}><div className={classes.instaRow}><img src={instagram} alt="brand" className={classes.instagram}></img> <div className={classes.font}>piko.butters</div></div></Col>
+                    <Col xs={3} className={classes.justifyEnd}><a className={classes.instaRow} href="https://www.instagram.com/piko.butters/" target="_blank"><img src={instagram} alt="brand" className={classes.instagram}></img> <div className={classes.font}>piko.butters</div></a></Col>
                     
                 </Row>
             </Container>
