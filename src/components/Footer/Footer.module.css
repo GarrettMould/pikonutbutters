@@ -1,0 +1,64 @@
+.container { 
+    height: auto;
+    width: 100%; 
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title { 
+    margin-top: 4px;
+}
+.innerBox { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 25px 100px 20px 100px;
+}
+
+.logoRow { 
+    display: flex;
+    align-items: center;
+    font-family: JosefSansMedium;
+}
+.logo {
+    max-width: 30px;
+    margin-right: 15px;
+}
+
+.font { 
+    font-family: JosefSansMedium;
+}
+
+.footerMenu { 
+    margin-top: 5px;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: JosefSansRegular;
+
+}
+
+.menuItem { 
+    margin-bottom: 10px;
+}
+
+.menuItem:hover { 
+    text-decoration: underline;
+}
+
+.instagram { 
+    max-width: 20px;
+    margin-right: 15px;
+}
+
+.instaRow { 
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    font-family: JosefSansMedium;
+    justify-content: end;
+}
+

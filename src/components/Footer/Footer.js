@@ -1,0 +1,34 @@
+import React from 'react'
+import classes from "./Footer.module.css"
+import { Container, Row, Col } from 'react-bootstrap'
+import brand_logo from "../../images/brand_logo.svg"
+import instagram from "../../images/instagram.svg"
+import { Link } from 'react-router-dom'
+
+const Footer = () => {
+  return (
+    <div className={classes.container}>
+        <div className={classes.innerBox}>
+            <Container>
+                <Row>
+                    <Col xs={3}><div className={classes.logoRow}><img src={brand_logo} alt="brand" className={classes.logo}></img><div className={classes.title}>Piko Nut Butters</div></div>
+
+                    </Col>
+                    <Col xs={6}>
+                        <div className={classes.footerMenu}>
+                            <div className={classes.menuItem}><Link to="/" style={{ textDecoration: 'none', color: "black" }}>Products</Link></div>
+                            <div className={classes.menuItem}><Link to="/recipes" style={{ textDecoration: 'none', color: "black"  }}>Recipes</Link></div>
+                            <div className={classes.menuItem}><Link to="/stores" style={{ textDecoration: 'none', color: "black"  }}>Find in Stores</Link></div>
+                        </div>
+                    </Col>
+                    <Col xs={3} className={classes.justifyEnd}><div className={classes.instaRow}><img src={instagram} alt="brand" className={classes.instagram}></img> <div className={classes.font}>piko.butters</div></div></Col>
+                    
+                </Row>
+            </Container>
+           
+        </div>
+    </div>
+  )
+}
+
+export default Footer

@@ -2,12 +2,13 @@ import classes from "./App.module.css"
 import { Routes, Route} from "react-router-dom";
 import Header from "../components/Header/Header"
 
+
 import React from 'react'
 import TopBanner from "../components/TopBanner/TopBanner"
 import ProductPage from "../components/ProductPage/ProductPage"
 import RecipePage from "../components/RecipePage/RecipePage"
 import StoreListPage from "../components/StoreListPage/StoreListPage"
-import OrderForm from "../components/OrderForm/OrderForm";
+import Footer from "../components/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,10 +20,9 @@ const App = () => {
           <Route path="/" element={<ProductPage></ProductPage>}></Route>
           <Route path="/recipes" element={<RecipePage></RecipePage>}></Route>
             <Route path="/stores" element={<StoreListPage></StoreListPage>}></Route>
-            <Route path="/order" element={<OrderForm></OrderForm>}></Route>
-            
         </Routes>
       </div>
+      <Footer></Footer>
     </>
 
   )

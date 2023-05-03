@@ -48,3 +48,9 @@ nav {
     color: black;
     text-decoration: underline;
   }
+
+  .dropdownToggle { 
+    font-size: 90%;
+    border-radius: 0;
+    font-family: JosefSansMedium;
+  }

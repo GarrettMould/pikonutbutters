@@ -32,6 +32,7 @@ const StoreListPage = () => {
             <Col xs={6}><div className={classes.address}>66 Vu Mien, Yen Phu, Tay Ho, Hanoi</div></Col> 
             <Col xs={2}><div><a href={locationMinhAnhMart} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
+        
     </div>
     </Container>
   )
