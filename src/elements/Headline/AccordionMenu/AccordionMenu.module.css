@@ -1,0 +1,34 @@
+.accordion { 
+    margin-top: 30px;
+}
+
+.item { 
+    border-radius: 0 !important;
+}
+
+.header { 
+    font-family: "JosefSansMedium";
+}
+
+.nutritionRow { 
+    display: flex;
+}
+
+.category, .question { 
+    font-family: "JosefSansMedium";
+}
+
+.figure, .answer { 
+    font-family: "JosefSansMedium";
+    color: grey;
+}
+
+.question {
+    margin: 5px 0px;
+
+}
+
+
+.faqs { 
+    text-align: start;
+}

@@ -13,21 +13,21 @@ const Header = () => {
         
         
         <nav className={classes.nav}>
-        <img src={logo} className={classes.logo} alt="logo"></img>
-        
+        <Link to="/"><img src={logo} className={classes.logo} alt="logo"></img>
+        </Link>
             <ul>
-                <li><Link to="/"><a href="#products">PRODUCTS</a></Link></li>
-                <li><Link to="/recipes"><a href="#recipes">RECIPES</a></Link></li>
-                <li><Link to="/stores"><a href="#recipes">FIND IN STORES</a></Link></li>
+                <li><Link to="/" style={{ textDecoration: 'none', color: "black" }}><a className={classes.navItem} href="#products">PRODUCTS</a></Link></li>
+                <li><Link to="/recipes" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>RECIPES</a></Link></li>
+                <li><Link to="/stores" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>FIND IN STORES</a></Link></li>
                 <li>
                 <Dropdown>
                   <Dropdown.Toggle variant="dark" id="dropdown-basic" className={classes.dropdownToggle}>
                     ORDER
                   </Dropdown.Toggle>
 
-                  <Dropdown.Menu>
-                    <Dropdown.Item href="https://shopee.vn/piko.nutbutters" target="_blank">SHOPEE</Dropdown.Item>
-                    <Dropdown.Item href="https://online.forms.app/pikobutters/order-form" target="_blank">FORMS.APP</Dropdown.Item>
+                  <Dropdown.Menu className={classes.menu}>
+                    <Dropdown.Item className={classes.dropdownItem} href="https://shopee.vn/piko.nutbutters" target="_blank">SHOPEE</Dropdown.Item>
+                    <Dropdown.Item className={classes.dropdownItem} href="https://online.forms.app/pikobutters/order-form" target="_blank">FORMS.APP</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
                 </li>

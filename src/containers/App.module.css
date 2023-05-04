@@ -24,3 +24,7 @@
   src: url(../fonts/JosefinSans-Medium.ttf)
 }
 
+@font-face {
+  font-family: JosefSansLight;
+  src: url(../fonts/JosefinSans-Light.ttf)
+}

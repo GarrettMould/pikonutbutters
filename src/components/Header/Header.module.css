@@ -34,12 +34,12 @@ nav {
     margin-bottom: 2px;
   }
 
-  nav a {
+  .navItem {
+    text-decoration: none;
     color: #333;
     font-family: "JosefSansMedium";
     text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px;
     border-radius: 5px;
   }
@@ -49,8 +49,21 @@ nav {
     text-decoration: underline;
   }
 
+  .menu { 
+    border-radius: 0 !important;
+  }
   .dropdownToggle { 
-    font-size: 90%;
-    border-radius: 0;
-    font-family: JosefSansMedium;
+    background-color: transparent !important;
+    color: black !important;
+    border: none !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 15px !important;
+    border-radius: 0 !important;
+    font-family: "JosefSansMedium" !important;
+  }
+
+  .dropdownItem { 
+    font-size: 15px !important;
+    font-family: "JosefSansMedium" !important;
   }
