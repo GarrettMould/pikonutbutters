@@ -14,14 +14,7 @@ const Footer = () => {
                     <Col xs={3}><div className={classes.logoRow}><img src={brand_logo} alt="brand" className={classes.logo}></img><div className={classes.title}>Piko Nut Butters</div></div>
 
                     </Col>
-                    <Col xs={6}>
-                        <div className={classes.footerMenu}>
-                            <div className={classes.menuItem}><Link to="/" style={{ textDecoration: 'none', color: "black" }}>Products</Link></div>
-                            <div className={classes.menuItem}><Link to="/recipes" style={{ textDecoration: 'none', color: "black"  }}>Recipes</Link></div>
-                            <div className={classes.menuItem}><Link to="/stores" style={{ textDecoration: 'none', color: "black"  }}>Find in Stores</Link></div>
-                        </div>
-                    </Col>
-                    <Col xs={3} className={classes.justifyEnd}><a className={classes.instaRow} href="https://www.instagram.com/piko.butters/" target="_blank"><img src={instagram} alt="brand" className={classes.instagram}></img> <div className={classes.font}>piko.butters</div></a></Col>
+                    <Col xs={9} className={classes.justifyEnd}><a className={classes.instaRow} href="https://www.instagram.com/piko.butters/" target="_blank"><img src={instagram} alt="brand" className={classes.instagram}></img> <div className={classes.font}>piko.butters</div></a></Col>
                     
                 </Row>
             </Container>

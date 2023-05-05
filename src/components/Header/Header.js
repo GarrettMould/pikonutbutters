@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../images/logo.png"
+import piko_alt from "../../images/piko_alt.png"
 import classes from "./Header.module.css"
 import cartIcon from "../../images/cart.svg"
 import { Link } from 'react-router-dom'
@@ -17,7 +18,7 @@ const Header = () => {
         </Link>
             <ul>
                 <li><Link to="/" style={{ textDecoration: 'none', color: "black" }}><a className={classes.navItem} href="#products">PRODUCTS</a></Link></li>
-                <li><Link to="/recipes" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>RECIPES</a></Link></li>
+                {/*<li><Link to="/recipes" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>RECIPES</a></Link></li>*/}
                 <li><Link to="/stores" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>FIND IN STORES</a></Link></li>
                 <li>
                 <Dropdown>

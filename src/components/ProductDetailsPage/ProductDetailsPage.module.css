@@ -1,6 +1,12 @@
 .container { 
     margin-top: 70px;
     margin-bottom: 70px;
+    padding-left: 0 !important;
+}
+
+.infoContainer { 
+    width: 95%;
+    padding-left: 3%;
 }
 
 .square { 

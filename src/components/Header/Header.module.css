@@ -53,6 +53,7 @@ nav {
     border-radius: 0 !important;
   }
   .dropdownToggle { 
+    margin-top: 3px;
     background-color: transparent !important;
     color: black !important;
     border: none !important;

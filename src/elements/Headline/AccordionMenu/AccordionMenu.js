@@ -1,9 +1,14 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import classes from './AccordionMenu.module.css'
+import { items } from '../../../ProductInformation';
 
 
-const AccordionMenu = () => {
+const AccordionMenu = (props) => {
+
+  
+  var selectedItemInfo = items[props.selectedProduct]; 
+
   return (
     <Accordion className={classes.accordion}>
       <Accordion.Item eventKey="0" className={classes.item}>
@@ -15,23 +20,23 @@ const AccordionMenu = () => {
           </div>
           <div className={classes.nutritionRow}>
             <div className={classes.category}>Calories:</div>
-            <div className={classes.figure}>&nbsp;100</div>
+            <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.calories}</div>
           </div>
           <div className={classes.nutritionRow}>
             <div className={classes.category}>Total Fat:</div>
-            <div className={classes.figure}>&nbsp;8 grams</div>
+            <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.total_fat}</div>
           </div>
           <div className={classes.nutritionRow}>
             <div className={classes.category}>Saturated Fat:</div>
-            <div className={classes.figure}>&nbsp;1.3 grams</div>
+            <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.sat_fat}</div>
           </div>
           <div className={classes.nutritionRow}>
             <div className={classes.category}>Sugar</div>
-            <div className={classes.figure}>&nbsp;&lt; 1 gram</div>
+            <div className={classes.figure}>&nbsp; {selectedItemInfo.nutrition.sugar}</div>
           </div>
           <div className={classes.nutritionRow}>
             <div className={classes.category}>Protein</div>
-            <div className={classes.figure}>&nbsp;4 grams</div>
+            <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.protein}</div>
           </div>
         </Accordion.Body>
       </Accordion.Item >
