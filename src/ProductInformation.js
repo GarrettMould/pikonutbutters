@@ -1,9 +1,17 @@
+import alm220_1 from '../src/images/alm220_1.jpg'
+import alm380_1 from '../src/images/alm380_1.jpg'
+import pb220_1 from '../src/images/pb220_1.jpg'
+import alm220_2 from "../src/images/alm220_2.jpg"
+import alm220_3 from "../src/images/alm220_3.jpg"
+import pb220_2 from "../src/images/pb220_2.jpg"
+import combo_1 from "../src/images/combo_1.jpg"
 export var items = [
     { 
         id: 0,
         name: "All-Natural Peanut Butter", 
         size: "220g", 
         price: "60,000 vnd", 
+        images: [pb220_1, pb220_2, combo_1],
         description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
         ingredients: "Roasted Peanuts, Salt", 
         nutrition: { 
@@ -19,6 +27,7 @@ export var items = [
         name: "All-Natural Peanut Butter", 
         size: "380g", 
         price: "100,000 vnd", 
+        images: [pb220_1, pb220_2, combo_1],
         description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
         ingredients: "Roasted Peanuts, Salt", 
         nutrition: { 
@@ -34,6 +43,7 @@ export var items = [
         name: "All-Natural Almond Butter", 
         size: "220g", 
         price: "125,000 vnd", 
+        images: [alm220_1, alm220_2, alm220_3],
         description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
         ingredients: "Roasted Almonds, Coconut Oil", 
         nutrition: { 
@@ -49,6 +59,7 @@ export var items = [
         name: "All-Natural Almond Butter", 
         size: "380g", 
         price: "175,000 vnd", 
+        images: [alm380_1, alm220_2, alm220_3],
         description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
         ingredients: "Roasted Almonds, Coconut Oil", 
         nutrition: { 
@@ -63,7 +74,8 @@ export var items = [
         id: 4,
         name: "Cacao Almond Butter", 
         size: "220g", 
-        price: "175,000 vnd", 
+        price: "175,000 vnd",
+        images: [alm220_1], 
         description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
         ingredients: "Roasted Almonds, Cacao, Honey", 
         nutrition: { 

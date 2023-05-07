@@ -18,7 +18,9 @@ const ProductPage = (props) => {
             <Col xs={4} className={classes.col}>
             <Link to="/product" style={{ textDecoration: 'none', color: "black" }}>
                 <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
-                    <div className={classes.square}>
+                    <div className={classes.relativeContainer}>
+                        <img src={item.images[0]} alt="product" className={classes.square}>
+                        </img>
                         <div className={classes.size}>{item.size}</div>
                     </div>
                     <div className={classes.containerProductInfo}>

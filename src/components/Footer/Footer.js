@@ -12,7 +12,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col xs={3}><div className={classes.logoRow}><img src={brand_logo} alt="brand" className={classes.logo}></img><div className={classes.title}>Piko Nut Butters</div></div>
-
+                    
                     </Col>
                     <Col xs={9} className={classes.justifyEnd}><a className={classes.instaRow} href="https://www.instagram.com/piko.butters/" target="_blank"><img src={instagram} alt="brand" className={classes.instagram}></img> <div className={classes.font}>piko.butters</div></a></Col>
                     

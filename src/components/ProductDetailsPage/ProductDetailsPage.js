@@ -5,8 +5,45 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import AccordionMenu from '../../elements/Headline/AccordionMenu/AccordionMenu';
 import { items } from '../../ProductInformation';
 
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+
 
 const ProductDetailsPage = (props) => {
+
+  const ImageSlider = () => {
+    const settings = {
+      dots: true,
+      customPaging: function(i) {
+        return (
+          <div className="dot-container">
+            <div className="dot" />
+          </div>
+        ); // create a custom dot element with a container
+      },
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+  
+    return (
+      <Slider {...settings}>
+        <div>
+          <img src={selectedItemInfo.images[0]} alt="product" className={classes.square}></img>
+        </div>
+        {selectedItemInfo.images[1] ? <div>
+          <img src={selectedItemInfo.images[1]} alt="product" className={classes.square}></img>
+        </div> : null}
+        {selectedItemInfo.images[2] ? <div>
+          <img src={selectedItemInfo.images[2]} alt="product" className={classes.square}></img>
+        </div> : null}
+      </Slider>
+    );
+  };
+  
 
 
   var selectedItemInfo = items[props.selectedProduct]; 
@@ -16,14 +53,14 @@ const ProductDetailsPage = (props) => {
   return (
     <Container className={classes.container}>
       <Row>
-        <Col xs={6}><div className={classes.square}></div></Col>
+        <Col xs={6}><ImageSlider></ImageSlider></Col>
         <Col xs={6} className={classes.infoCol}>
           <div className={classes.infoContainer}>
-          <div className={classes.productTitle}>{selectedItemInfo.name}</div>
+          <div className={classes.productTitle}>{selectedItemInfo.name} ({selectedItemInfo.size})</div>
           <div className={classes.productPrice}>{selectedItemInfo.price}</div>
           <div className={classes.productDescription}>{selectedItemInfo.description}</div>
-          <div className={classes.ingredients}>Ingredients: {selectedItemInfo.ingredients}</div>
-          <Dropdown>
+          <div className={classes.ingredients}>Ingredients: <span> {selectedItemInfo.ingredients}</span></div>
+          <Dropdown className={classes.dropdown}>
                   <Dropdown.Toggle variant="dark" id="dropdown-basic" className={classes.dropdownToggle}>
                     ORDER
                   </Dropdown.Toggle>

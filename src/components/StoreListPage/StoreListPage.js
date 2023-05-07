@@ -10,6 +10,7 @@ const StoreListPage = () => {
   const locationThuyThanh = "https://goo.gl/maps/qhdt4bn2LFSTPywr7"
   const locationMinAnMart = "https://goo.gl/maps/BPbjZBPM4XkUMzrm7"
   const locationMinhAnhMart = "https://goo.gl/maps/RVgbwFEZ7JppkgZJ8"
+  const locationSedona = "https://goo.gl/maps/BBCedwans73uWfSBA"; 
   return (
     <Container className={classes.container}>
     <Row className={classes.row}><Headline text="Store Locator"></Headline></Row>
@@ -17,6 +18,11 @@ const StoreListPage = () => {
     <div className={classes.message}>Piko is a proud partner with many local grocery stores in the Tay Ho and Truc Bach area. We are also a familar face at many local markets and community events in Hanoi.</div>
     
     <div className={classes.list}>
+    <Row className={classes.itemContainer}>
+            <Col xs={4}><div className={classes.storeName}>Sedona Mini Mart</div></Col>
+            <Col xs={6}><div className={classes.address}>3 Tay Ho Street, Quang An, Tay Ho, Hanoi</div></Col> 
+            <Col xs={2}><div><a href={locationSedona} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
+        </Row>
         <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>Thuy Thanh Mini Mart</div></Col>
             <Col xs={6}><div className={classes.address}>22 Tu Hoa, Quang An, Tay Ho, Hanoi</div></Col> 
