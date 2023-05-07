@@ -66,8 +66,8 @@ const ProductDetailsPage = (props) => {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu className={classes.menu}>
-                    <Dropdown.Item className={classes.dropdownItem} href="https://shopee.vn/piko.nutbutters" target="_blank">SHOPEE</Dropdown.Item>
-                    <Dropdown.Item className={classes.dropdownItem} href="https://online.forms.app/pikobutters/order-form" target="_blank">FORMS.APP</Dropdown.Item>
+                    <Dropdown.Item className={classes.dropdownItem} href="https://shopee.vn/piko.nutbutters" target="_blank">Order on Shopee</Dropdown.Item>
+                    <Dropdown.Item className={classes.dropdownItem} href="https://online.forms.app/pikobutters/order-form" target="_blank">Order on Forms.App</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
                 <AccordionMenu selectedProduct={props.selectedProduct}></AccordionMenu>
