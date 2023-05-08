@@ -4,6 +4,8 @@ import Headline from '../../elements/Headline/Headline'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Media from 'react-media';
+import mapIcon from "../../images/map-pin(1).png"
 
 const StoreListPage = () => {
 
@@ -12,7 +14,42 @@ const StoreListPage = () => {
   const locationMinhAnhMart = "https://goo.gl/maps/RVgbwFEZ7JppkgZJ8"
   const locationSedona = "https://goo.gl/maps/BBCedwans73uWfSBA"; 
   return (
-    <Container className={classes.container}>
+
+    <Media queries={{ small: { maxWidth: 599 } }}>
+    {matches =>
+      matches.small ? (
+        <Container className={classes.container}>
+    <Row className={classes.row}><Headline text="Store Locator"></Headline></Row>
+
+    <div className={classes.message}>Piko is a proud partner with many local grocery stores in the Tay Ho and Truc Bach area. We are also a familar face at many local markets and community events in Hanoi.</div>
+    
+    <div className={classes.list}>
+    <Row className={classes.itemContainer}>
+            <Col xs={9}><div className={classes.storeName}>Sedona Mini Mart</div></Col>
+            <Col xs={9}><div className={classes.address}>3 Tay Ho Street, Quang An, Tay Ho, Hanoi</div></Col> 
+            <Col xs={3}><div><a href={locationSedona} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+        </Row>
+        <Row className={classes.itemContainer}>
+            <Col xs={9}><div className={classes.storeName}>Thuy Thanh Mini Mart</div></Col>
+            <Col xs={9}><div className={classes.address}>22 Tu Hoa, Quang An, Tay Ho, Hanoi</div></Col> 
+            <Col xs={3}><div><a href={locationThuyThanh} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+        </Row>
+        <Row className={classes.itemContainer}>
+            <Col xs={9}><div className={classes.storeName}>MinAn Mart</div></Col>
+            <Col xs={9}><div className={classes.address}>76 Tu Hoa, Quang An, Tay Ho, Hanoi</div></Col> 
+            <Col xs={3}><div><a href={locationMinAnMart} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+        </Row>
+        <Row className={classes.itemContainer}>
+            <Col xs={9}><div className={classes.storeName}>Minh Anh Mart</div></Col>
+            <Col xs={9}><div className={classes.address}>66 Vu Mien, Yen Phu, Tay Ho, Hanoi</div></Col> 
+            <Col xs={3}><div><a href={locationMinhAnhMart} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+        </Row>
+        
+    </div>
+    </Container>
+       
+      ) : (
+        <Container className={classes.container}>
     <Row className={classes.row}><Headline text="Store Locator"></Headline></Row>
 
     <div className={classes.message}>Piko is a proud partner with many local grocery stores in the Tay Ho and Truc Bach area. We are also a familar face at many local markets and community events in Hanoi.</div>
@@ -21,7 +58,7 @@ const StoreListPage = () => {
     <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>Sedona Mini Mart</div></Col>
             <Col xs={6}><div className={classes.address}>3 Tay Ho Street, Quang An, Tay Ho, Hanoi</div></Col> 
-            <Col xs={2}><div><a href={locationSedona} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
+            <Col xs={2}><div><a href={locationSedona} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map"></img></button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>Thuy Thanh Mini Mart</div></Col>
@@ -41,6 +78,10 @@ const StoreListPage = () => {
         
     </div>
     </Container>
+      )
+    }
+  </Media>
+    
   )
 }
 

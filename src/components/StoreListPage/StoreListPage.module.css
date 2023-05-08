@@ -47,3 +47,48 @@
 .button:hover, .button:active { 
     opacity: 85%; 
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .message { 
+        padding-left: 0 !important;
+        text-align: start;
+        font-size: 110%;
+        line-height: 180%;
+        font-family: JosefSansRegular;
+        margin-top: 10px;
+    }
+
+    .storeName { 
+        display: flex;
+        font-size: 100%;
+        align-self: flex-start;
+        font-family: "JosefSansRegular";
+    }
+
+    .address { 
+        font-size: 90%;
+        color: grey;
+        text-align: start;
+        font-family: "JosefSansRegular";
+
+    }
+
+    .mapIcon {
+        max-width: 27.5px;
+    }
+    
+    .button { 
+        border: none; 
+        outline: none;
+        margin-bottom: 10px;
+        padding: 5px 0px;
+        background-color: black;
+        width: 80%; 
+        color: white;
+        font-family: "JosefSansRegular";
+        font-size: 125%;
+    }
+  
+  }
