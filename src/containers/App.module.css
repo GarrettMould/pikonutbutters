@@ -28,3 +28,13 @@
   font-family: JosefSansLight;
   src: url(../fonts/JosefinSans-Light.ttf)
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .app {
+    text-align: center;
+    padding: 20px 30px;
+  }
+
+}
