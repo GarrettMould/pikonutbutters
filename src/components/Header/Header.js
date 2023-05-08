@@ -1,13 +1,11 @@
 import React from 'react'
 import logo from "../../images/logo.png"
-import piko_alt from "../../images/piko_alt.png"
 import classes from "./Header.module.css"
-import cartIcon from "../../images/cart.svg"
 import { Link } from 'react-router-dom'
 import Dropdown from 'react-bootstrap/Dropdown';
 import menu from '../../images/menu.svg'
-
 import Media from 'react-media'
+import piko_main_logo from "../../images/piko_main_logo.svg"
 
 
 
