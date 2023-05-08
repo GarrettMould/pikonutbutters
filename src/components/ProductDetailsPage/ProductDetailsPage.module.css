@@ -94,3 +94,57 @@
     width: 100% !important;
     font-family: "JosefSansMedium" !important;
   }
+
+  @media screen and (max-width: 768px) {
+
+    .container { 
+        margin-top: 50px;
+        margin-bottom: 70px;
+        padding-left: 0 !important;
+    }
+
+    .productTitle { 
+        text-align: start;
+        font-size: 160%;
+        font-family: "JosefSansMedium";
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .productPrice { 
+        text-align: start;
+        font-size: 140%;
+        font-family: "JosefSansMedium";
+        margin-bottom: 10px;
+    }
+    
+    .productDescription {
+        text-align: start; 
+        font-size: 110%;
+        font-family: "JosefSansMedium";
+        margin-bottom: 15px;
+    }
+    
+    .ingredients { 
+        text-align: start; 
+        font-size: 110%;
+        font-family: "JosefSansMedium";
+        margin-bottom: 15px;
+    }
+    
+    
+    .order { 
+        width: 100%; 
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    
+    .orderText { 
+        font-size: 120%;
+        font-family: "JosefSansMedium";
+    }
+    
+  
+  }

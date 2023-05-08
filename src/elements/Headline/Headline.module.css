@@ -7,3 +7,19 @@
     font-size: 175%;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .headline { 
+        padding-left: 0 !important;
+        display: flex;
+        justify-self: flex-start;
+        width: 100%; 
+        font-family: JosefSansSemiBold;
+        font-size: 150%;
+        margin-bottom: 20px;
+    }
+    
+
+  
+  }

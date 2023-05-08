@@ -71,3 +71,18 @@
     color: black;
 }
 
+
+
+@media screen and (max-width: 768px) {
+
+    .container { 
+        height: auto;
+        width: 100%; 
+        background-color: black;
+        display: flex;
+        
+        align-items: center;
+    }
+
+  
+  }

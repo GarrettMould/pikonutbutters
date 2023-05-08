@@ -8,6 +8,8 @@ import Headline from '../../elements/Headline/Headline';
 import { Link } from 'react-router-dom'
 import { items } from '../../ProductInformation';
 
+import Media from 'react-media';
+
 
 
 const ProductPage = (props) => {
@@ -15,21 +17,47 @@ const ProductPage = (props) => {
     const mappedItems= items.map( (item) => {    
        
         return (
-            <Col xs={4} className={classes.col}>
-            <Link to="/product" style={{ textDecoration: 'none', color: "black" }}>
-                <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
-                    <div className={classes.relativeContainer}>
-                        <img src={item.images[0]} alt="product" className={classes.square}>
-                        </img>
-                        <div className={classes.size}>{item.size}</div>
-                    </div>
-                    <div className={classes.containerProductInfo}>
-                        <div className={classes.productName}>{item.name}</div>
-                        <div className={classes.productPrice}>{item.price}</div>
-                    </div>
-                </Card>
-            </Link>
-            </Col>
+
+            <Media queries={{ small: { maxWidth: 599 } }}>
+          {matches =>
+            matches.small ? (
+                <Col xs={6} className={classes.col}>
+                <Link to="/product" style={{ textDecoration: 'none', color: "black" }}>
+                    <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
+                        <div className={classes.relativeContainer}>
+                            <img src={item.images[0]} alt="product" className={classes.square}>
+                            </img>
+                            <div className={classes.size}>{item.size}</div>
+                        </div>
+                        <div className={classes.containerProductInfo}>
+                            <div className={classes.productName}>{item.name}</div>
+                            <div className={classes.productPrice}>{item.price}</div>
+                        </div>
+                    </Card>
+                </Link>
+                </Col>
+             
+            ) : (
+                <Col xs={4} className={classes.col}>
+                <Link to="/product" style={{ textDecoration: 'none', color: "black" }}>
+                    <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
+                        <div className={classes.relativeContainer}>
+                            <img src={item.images[0]} alt="product" className={classes.square}>
+                            </img>
+                            <div className={classes.size}>{item.size}</div>
+                        </div>
+                        <div className={classes.containerProductInfo}>
+                            <div className={classes.productName}>{item.name}</div>
+                            <div className={classes.productPrice}>{item.price}</div>
+                        </div>
+                    </Card>
+                </Link>
+                </Col>
+            )
+          }
+        </Media>
+ 
+            
             
           
             

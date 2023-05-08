@@ -9,6 +9,10 @@
     max-width: 100px;
 }
 
+.menuIcon { 
+  max-width: 35px;
+}
+
 nav {
     height: 50px;
   }
@@ -67,4 +71,14 @@ nav {
   .dropdownItem { 
     font-size: 15px !important;
     font-family: "JosefSansMedium" !important;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .logo { 
+      max-width: 75px;
+    }
+
+  
   }

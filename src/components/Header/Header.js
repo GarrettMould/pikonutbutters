@@ -5,14 +5,27 @@ import classes from "./Header.module.css"
 import cartIcon from "../../images/cart.svg"
 import { Link } from 'react-router-dom'
 import Dropdown from 'react-bootstrap/Dropdown';
+import menu from '../../images/menu.svg'
+
+import Media from 'react-media'
 
 
 
 const Header = () => {
   return (
-    <div>
-        
-        
+    <Media queries={{ small: { maxWidth: 599 } }}>
+    {matches =>
+      matches.small ? (
+        <div>
+        <nav className={classes.nav}>
+        <Link to="/"><img src={logo} className={classes.logo} alt="logo"></img>
+        </Link>
+            <img src={menu} alt='menu' className={classes.menuIcon}></img>
+        </nav>
+  </div>
+       
+      ) : (
+        <div>
         <nav className={classes.nav}>
         <Link to="/"><img src={logo} className={classes.logo} alt="logo"></img>
         </Link>
@@ -36,6 +49,10 @@ const Header = () => {
             </ul>
         </nav>
   </div>
+      )
+    }
+  </Media>
+    
   )
 }
 

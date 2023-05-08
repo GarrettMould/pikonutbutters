@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Dropdown from 'react-bootstrap/Dropdown';
 import AccordionMenu from '../../elements/Headline/AccordionMenu/AccordionMenu';
 import { items } from '../../ProductInformation';
+import Media from 'react-media';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -25,6 +26,7 @@ const ProductDetailsPage = (props) => {
       },
       infinite: true,
       speed: 500,
+      touchMove: true,
       slidesToShow: 1,
       slidesToScroll: 1
     };
@@ -51,7 +53,37 @@ const ProductDetailsPage = (props) => {
   console.log(selectedItemInfo)
   
   return (
-    <Container className={classes.container}>
+    <Media queries={{ small: { maxWidth: 599 } }}>
+    {matches =>
+      matches.small ? (
+        <Container className={classes.container}>
+      <Row>
+        <Col xs={12}><ImageSlider></ImageSlider></Col>
+      </Row>
+      <Row>
+        <Col xs={12} className={classes.infoCol}>
+          <div className={classes.infoContainer}>
+          <div className={classes.productTitle}>{selectedItemInfo.name} ({selectedItemInfo.size})</div>
+          <div className={classes.productPrice}>{selectedItemInfo.price}</div>
+          <div className={classes.productDescription}>{selectedItemInfo.description}</div>
+          <div className={classes.ingredients}>Ingredients: <span> {selectedItemInfo.ingredients}</span></div>
+          <Dropdown className={classes.dropdown}>
+                  <Dropdown.Toggle variant="dark" id="dropdown-basic" className={classes.dropdownToggle}>
+                    ORDER
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu className={classes.menu}>
+                    <Dropdown.Item className={classes.dropdownItem} href="https://shopee.vn/piko.nutbutters" target="_blank">Order on Shopee</Dropdown.Item>
+                    <Dropdown.Item className={classes.dropdownItem} href="https://online.forms.app/pikobutters/order-form" target="_blank">Order on Forms.App</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+                <AccordionMenu selectedProduct={props.selectedProduct}></AccordionMenu>
+         </div>
+        </Col>
+      </Row>
+    </Container>
+      ) : (
+        <Container className={classes.container}>
       <Row>
         <Col xs={6}><ImageSlider></ImageSlider></Col>
         <Col xs={6} className={classes.infoCol}>
@@ -75,6 +107,10 @@ const ProductDetailsPage = (props) => {
         </Col>
       </Row>
     </Container>
+      )
+    }
+  </Media>
+    
   )
 }
 
