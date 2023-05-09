@@ -23,32 +23,32 @@ const StoreListPage = () => {
     
     <div className={classes.list}>
         <Row className={classes.itemContainer}>
-            <Col xs={9}>
+            <Col xs={6}>
               <div className={classes.storeName}>Sedona Mini Mart</div>
-              <div className={classes.address}>3 Tay Ho Street, Quang An, Tay Ho, Hanoi</div>
+              <div className={classes.address}>3 Tay Ho Street, Quang An, Tay Ho</div>
             </Col> 
-            <Col xs={3}><div><a href={locationSedona} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+            <Col xs={6}><div><a href={locationSedona} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
-            <Col xs={9}>
+            <Col xs={6}>
               <div className={classes.storeName}>Thuy Thanh Mini Mart</div>
-              <div className={classes.address}>22 Tu Hoa, Quang An, Tay Ho, Hanoi</div>
+              <div className={classes.address}>22 Tu Hoa, Quang An, Tay Ho</div>
             </Col> 
-            <Col xs={3}><div><a href={locationThuyThanh} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+            <Col xs={6}><div><a href={locationThuyThanh} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
-            <Col xs={9}>
+            <Col xs={6}>
               <div className={classes.storeName}>MinAn Mart</div>
-              <div className={classes.address}>76 Tu Hoa, Quang An, Tay Ho, Hanoi</div>
+              <div className={classes.address}>76 Tu Hoa, Quang An, Tay Ho</div>
             </Col> 
-            <Col xs={3}><div><a href={locationMinAnMart} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+            <Col xs={6}><div><a href={locationMinAnMart} target="_blank" rel="noreferrer" className={classes.link} ><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
-            <Col xs={9}>
+            <Col xs={6}>
               <div className={classes.storeName}>Minh Anh Mart</div>
-              <div className={classes.address}>66 Vu Mien, Yen Phu, Tay Ho, Hanoi</div>
+              <div className={classes.address}>66 Vu Mien, Yen Phu, Tay Ho</div>
             </Col> 
-            <Col xs={3}><div><a href={locationMinhAnhMart} target="_blank" rel="noreferrer"><button className={classes.button}><img src={mapIcon} alt="map" className={classes.mapIcon}></img></button></a></div></Col>  
+            <Col xs={6}><div><a href={locationMinhAnhMart} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>      
         
     </div>
@@ -65,22 +65,22 @@ const StoreListPage = () => {
     <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>Sedona Mini Mart</div></Col>
             <Col xs={6}><div className={classes.address}>3 Tay Ho Street, Quang An, Tay Ho, Hanoi</div></Col> 
-            <Col xs={2}><div><a href={locationSedona} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
+            <Col xs={2}><div><a href={locationSedona} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>Thuy Thanh Mini Mart</div></Col>
             <Col xs={6}><div className={classes.address}>22 Tu Hoa, Quang An, Tay Ho, Hanoi</div></Col> 
-            <Col xs={2}><div><a href={locationThuyThanh} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
+            <Col xs={2}><div><a href={locationThuyThanh} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>MinAn Mart</div></Col>
             <Col xs={6}><div className={classes.address}>76 Tu Hoa, Quang An, Tay Ho, Hanoi</div></Col> 
-            <Col xs={2}><div><a href={locationMinAnMart} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
+            <Col xs={2}><div><a href={locationMinAnMart} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         <Row className={classes.itemContainer}>
             <Col xs={4}><div className={classes.storeName}>Minh Anh Mart</div></Col>
             <Col xs={6}><div className={classes.address}>66 Vu Mien, Yen Phu, Tay Ho, Hanoi</div></Col> 
-            <Col xs={2}><div><a href={locationMinhAnhMart} target="_blank" rel="noreferrer"><button className={classes.button}>Directions</button></a></div></Col>  
+            <Col xs={2}><div><a href={locationMinhAnhMart} target="_blank" rel="noreferrer" className={classes.link}><button className={classes.button}>Directions</button></a></div></Col>  
         </Row>
         
     </div>
