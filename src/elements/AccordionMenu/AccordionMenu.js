@@ -1,7 +1,7 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import classes from './AccordionMenu.module.css'
-import { items } from '../../../ProductInformation';
+import { items } from '../../ProductInformation';
 
 
 const AccordionMenu = (props) => {

@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 40px 100px 35px 100px;
+    padding: 30px 100px 25px 100px;
 }
 
 .logoRow { 
@@ -27,8 +27,8 @@
 }
 
 .footerItem  { 
-    margin-bottom: 5px;
-    font-size: 110%;
+    margin-bottom: 10px;
+    font-size: 100%;
     color: white; 
     text-decoration: none;
     font-family: "JosefSansMedium";
@@ -84,7 +84,7 @@
     }
 
   .footerItem  { 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: white; 
     text-decoration: none;
     font-size: 100%;

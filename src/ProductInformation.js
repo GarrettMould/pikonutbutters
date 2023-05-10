@@ -13,7 +13,7 @@ export var items = [
         size: "220g", 
         price: "60,000 vnd", 
         images: [pb220_1, pb220_2, combo_1],
-        description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
+        description: "Piko's all-natural peanut butter made with just two simple ingredients: peanuts and salt. With no added sugars or preservatives, this creamy and delicious peanut butter is perfect for those looking for a healthy and natural snack option. Enjoy it on toast, in a smoothie, or simply by the spoonful.", 
         ingredients: "Roasted Peanuts, Salt", 
         nutrition: { 
             calories: "100", 
@@ -29,7 +29,7 @@ export var items = [
         size: "380g", 
         price: "100,000 vnd", 
         images: [pb220_1, pb220_2, combo_1],
-        description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
+        description: "Piko's all-natural peanut butter made with just two simple ingredients: peanuts and salt. With no added sugars or preservatives, this creamy and delicious peanut butter is perfect for those looking for a healthy and natural snack option. Enjoy it on toast, in a smoothie, or simply by the spoonful.", 
         ingredients: "Roasted Peanuts, Salt", 
         nutrition: { 
             calories: "100", 
@@ -45,7 +45,7 @@ export var items = [
         size: "220g", 
         price: "125,000 vnd", 
         images: [alm220_1, alm220_2, alm220_3],
-        description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
+        description: "Say hello to our all-natural almond butter made with only two ingredients: almonds and coconut oil. This creamy and delicious spread is a nutritious addition to your breakfast or snack time. With no added sugars, our almond butter is a guilt-free indulgence that you can enjoy on toast, in smoothies, or all by itself.", 
         ingredients: "Roasted Almonds, Coconut Oil", 
         nutrition: { 
             calories: "100", 
@@ -61,7 +61,7 @@ export var items = [
         size: "380g", 
         price: "210,000 vnd", 
         images: [alm380_1, alm220_2, alm220_3],
-        description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
+        description: "Say hello to our all-natural almond butter made with only two ingredients: almonds and coconut oil. This creamy and delicious spread is a nutritious addition to your breakfast or snack time. With no added sugars, our almond butter is a guilt-free indulgence that you can enjoy on toast, in smoothies, or all by itself.", 
         ingredients: "Roasted Almonds, Coconut Oil", 
         nutrition: { 
             calories: "100", 
@@ -77,8 +77,8 @@ export var items = [
         size: "220g", 
         price: "180,000 vnd",
         images: [combo_1], 
-        description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
-        ingredients: "Roasted Almonds, Cacao, Honey", 
+        description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
+        ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 
         nutrition: { 
             calories: "170", 
             total_fat: "10 grams", 
@@ -93,8 +93,8 @@ export var items = [
         size: "380g", 
         price: "300,000 vnd",
         images: [combo_1], 
-        description: "Our Monkeys crush the freshest, tastiest Australian peanuts into a creamy yet crunchy consistency, sprinkling natural salt as they grind. We believe this creates the best peanut butter in the world - to spread or dollop on anything you like!", 
-        ingredients: "Roasted Almonds, Cacao, Honey", 
+        description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
+        ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 
         nutrition: { 
             calories: "170", 
             total_fat: "10 grams", 

@@ -6,6 +6,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import menu from '../../images/menu.svg'
 import Media from 'react-media'
 import piko_main_logo from "../../images/piko_main_logo.svg"
+import BurgerMenu from '../../elements/BurgerMenu.js/BurgerMenu';
 
 
 
@@ -18,7 +19,7 @@ const Header = () => {
         <nav className={classes.nav}>
         <Link to="/"><img src={logo} className={classes.logo} alt="logo"></img>
         </Link>
-            <img src={menu} alt='menu' className={classes.menuIcon}></img>
+            <BurgerMenu></BurgerMenu>
         </nav>
   </div>
        

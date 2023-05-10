@@ -2,7 +2,7 @@ import React from 'react'
 import classes from "./ProductDetailsPage.module.css"
 import { Container, Row, Col } from 'react-bootstrap'
 import Dropdown from 'react-bootstrap/Dropdown';
-import AccordionMenu from '../../elements/Headline/AccordionMenu/AccordionMenu';
+import AccordionMenu from '../../elements/AccordionMenu/AccordionMenu';
 import { items } from '../../ProductInformation';
 import Media from 'react-media';
 
