@@ -10,7 +10,7 @@ const TopBanner = () => {
     {matches =>
       matches.small ? (
         <div className={classes.banner}>
-        Help reduce waste! Save 10k when you return your old Piko jar.
+        Help cut out waste! Return your old Piko jar and receive 10k off your new order. 
       </div>
        
       ) : (
