@@ -22,7 +22,7 @@
     {
         name: "Housing Food Shop", 
         address: "21 To Ngoc Van, Quang An, Tay Ho",  
-        url: "https://goo.gl/maps/f2AyoNEDnZFwsqjq6s", 
+        url: "https://goo.gl/maps/kumd4trvJdVP3H466?coh=178572&entry=tt", 
     },
     {
         name: "Mini Food Shop", 

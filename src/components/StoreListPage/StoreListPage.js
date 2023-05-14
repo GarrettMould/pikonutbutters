@@ -6,7 +6,9 @@ import Media from 'react-media';
 import mapIcon from "../../images/map-pin-bold.png"
 import { stores } from '../../StoreInformation';
 
+
 const StoreListPage = () => {
+  
 
  var sortedStores = stores.sort(function(a, b) {
     var nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -56,8 +58,9 @@ const StoreListPage = () => {
         <Container className={classes.container}>
     <Row className={classes.row}><Headline text="Store Locator"></Headline></Row>
 
+
     <div className={classes.message}>Piko is a proud partner with many local grocery stores in the Tay Ho and Truc Bach area. We are also a familar face at many local markets and community events in Hanoi.</div>
-    
+
     <div className={classes.list}>
       {mappedStores}
     </div>
@@ -66,4 +69,4 @@ const StoreListPage = () => {
   )
 }
 
-export default StoreListPage
+export default StoreListPage;

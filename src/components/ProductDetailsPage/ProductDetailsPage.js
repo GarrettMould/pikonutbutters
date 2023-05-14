@@ -16,14 +16,7 @@ const ProductDetailsPage = (props) => {
 
   const ImageSlider = () => {
     const settings = {
-      dots: true,
-      customPaging: function(i) {
-        return (
-          <div className="dot-container">
-            <div className="dot" />
-          </div>
-        ); // create a custom dot element with a container
-      },
+      dots: false,
       infinite: true,
       speed: 500,
       touchMove: true,
