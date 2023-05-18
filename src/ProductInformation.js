@@ -10,6 +10,8 @@ export var items = [
     { 
         id: 0,
         name: "All-Natural Peanut Butter", 
+        mobileLineOne: "All-Natural", 
+        mobileLineTwo: "Peanut Butter",
         size: "220g", 
         price: "60,000 vnd", 
         images: [pb220_1, pb220_2, combo_1],
@@ -26,6 +28,8 @@ export var items = [
     { 
         id: 1,
         name: "All-Natural Peanut Butter", 
+        mobileLineOne: "All-Natural", 
+        mobileLineTwo: "Peanut Butter",
         size: "380g", 
         price: "100,000 vnd", 
         images: [pb220_1, pb220_2, combo_1],
@@ -42,6 +46,8 @@ export var items = [
     { 
         id: 2,
         name: "All-Natural Almond Butter", 
+        mobileLineOne: "All-Natural", 
+        mobileLineTwo: "Almond Butter",
         size: "220g", 
         price: "125,000 vnd", 
         images: [alm220_1, alm220_2, alm220_3],
@@ -58,6 +64,8 @@ export var items = [
     {   
         id: 3, 
         name: "All-Natural Almond Butter", 
+        mobileLineOne: "All-Natural", 
+        mobileLineTwo: "Almond Butter",
         size: "380g", 
         price: "210,000 vnd", 
         images: [alm380_1, alm220_2, alm220_3],
@@ -74,6 +82,8 @@ export var items = [
     { 
         id: 4,
         name: "Piko Combo Pack", 
+        mobileLineOne: "Piko Combo Pack", 
+        mobileLineTwo: "",
         size: "220g", 
         price: "180,000 vnd",
         images: [combo_1], 
@@ -90,6 +100,8 @@ export var items = [
     { 
         id: 5,
         name: "Piko Combo Pack", 
+        mobileLineOne: "Piko Combo Pack", 
+        mobileLineTwo: "",
         size: "380g", 
         price: "300,000 vnd",
         images: [combo_1], 

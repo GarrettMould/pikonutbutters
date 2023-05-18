@@ -12,6 +12,7 @@ import Media from 'react-media';
 
 
 
+
 const ProductPage = (props) => {
 
     const mappedItems= items.map( (item) => {    
@@ -30,7 +31,7 @@ const ProductPage = (props) => {
                             <div className={classes.size}>{item.size}</div>
                         </div>
                         <div className={classes.containerProductInfo}>
-                            <div className={classes.productName}>{item.name}</div>
+                            <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
                         </div>
                     </Card>
@@ -65,6 +66,7 @@ const ProductPage = (props) => {
 
   return (
     <Container className={classes.container}>
+        
         <Row className={classes.row}><Headline text="Products"></Headline></Row>
         <Row className={classes.row}>
            {mappedItems}
