@@ -2,13 +2,27 @@ import { slide as Menu } from 'react-burger-menu'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import classes from "./BurgerMenu.module.css"
+import { useNavigate } from 'react-router-dom';
+
+
 
 
 const BurgerMenu = () => {
+
+  const navigate = useNavigate();
+
+
   const [isOpen, setIsOpen] = useState(false)
 
-  const closeMenu = () => {
+  const closeMenu = (e) => {
     setIsOpen(false)
+
+    if (e.target.id === "products") { 
+      navigate.push('/products')
+    } else if (e.target.id === "stores") { 
+      navigate.push('/stores');
+    } 
+      
   }
 
   const handleOnOpen = () => { 
@@ -66,10 +80,10 @@ const BurgerMenu = () => {
       isOpen={isOpen}
       styles={styles}
     >
-      <Link to="/" onClick={closeMenu} className={classes.menuItem}>Products</Link>
-      <Link to="/stores" onClick={closeMenu} className={classes.menuItem}>Find in Stores</Link>
-      <a id="home" className={classes.menuItem} onClick={closeMenu} href="https://shopee.vn/piko.nutbutters" target="_blank" rel='noreferrer'>Order on Shopee</a>
-      <a id="about" className={classes.menuItem}  onClick={closeMenu} href="https://online.forms.app/pikobutters/order-form" target="_blank" rel="noreferrer">Order on Forms.App</a>
+      <Link id="products" to="/" onClick={closeMenu} className={classes.menuItem}>Products</Link>
+      <Link  id="stores" to="/stores" onClick={closeMenu} className={classes.menuItem}>Find in Stores</Link>
+      <a id="shopee" className={classes.menuItem} onClick={closeMenu} href="https://shopee.vn/piko.nutbutters" target="_blank" rel='noreferrer'>Order on Shopee</a>
+      <a id="forms" className={classes.menuItem}  onClick={closeMenu} href="https://online.forms.app/pikobutters/order-form" target="_blank" rel="noreferrer">Order on Forms.App</a>
       
     </Menu>
   )

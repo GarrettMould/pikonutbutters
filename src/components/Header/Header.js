@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Dropdown from 'react-bootstrap/Dropdown';
 import menu from '../../images/menu.svg'
 import Media from 'react-media'
+import logoNEW from '../../images/logoNEW.png'
 import piko_main_logo from "../../images/piko_main_logo.svg"
 import BurgerMenu from '../../elements/BurgerMenu.js/BurgerMenu';
 
@@ -17,7 +18,7 @@ const Header = () => {
       matches.small ? (
         <div>
         <nav className={classes.nav}>
-        <Link to="/"><img src={logo} className={classes.logo} alt="logo"></img>
+        <Link to="/"><img src={logoNEW} className={classes.logo} alt="logo"></img>
         </Link>
             <BurgerMenu></BurgerMenu>
         </nav>
@@ -26,7 +27,7 @@ const Header = () => {
       ) : (
         <div>
         <nav className={classes.nav}>
-        <Link to="/"><img src={logo} className={classes.logo} alt="logo"></img>
+        <Link to="/"><img src={logoNEW} className={classes.logo} alt="logo"></img>
         </Link>
             <ul>
                 <li><Link to="/" style={{ textDecoration: 'none', color: "black" }}><a className={classes.navItem} href="#products">PRODUCTS</a></Link></li>
