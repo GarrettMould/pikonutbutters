@@ -50,7 +50,8 @@
 
 .productTitle { 
     text-align: start;
-    font-size: 175%;
+    line-height: 120%;
+    font-size: 300%;
     font-family: "RalewayBlack";
     margin-bottom: 10px;
 }

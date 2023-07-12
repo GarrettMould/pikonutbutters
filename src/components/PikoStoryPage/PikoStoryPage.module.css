@@ -1,0 +1,18 @@
+.container { 
+    padding: 75px 0px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header { 
+    font-family: RalewayBlack;
+    font-size: 275%;
+}
+
+.message { 
+    width: 75%;
+    font-family: RalewayRegular;
+    line-height: 200%;
+    font-size: 175%;
+}

@@ -13,6 +13,8 @@ import ProductDetailsPage from "../components/ProductDetailsPage/ProductDetailsP
 import Footer from "../components/Footer/Footer";
 import ProductMessageBanner from "../elements/ProductMessageBanner/ProductMessageBanner";
 import ColorBlocks from "../components/ColorBlocks/ColorBlocks";
+import PikoStoryPage from "../components/PikoStoryPage/PikoStoryPage";
+import SocialConnectBanner from "../components/SocialConnectBanner/SocialConnectBanner";
 
 const App = () => {
 
@@ -30,7 +32,11 @@ const App = () => {
       <div className={classes.app}>
       <Header></Header>
       <ColorBlocks></ColorBlocks>
-      <ProductMessageBanner></ProductMessageBanner>
+      <PikoStoryPage></PikoStoryPage>
+  
+      <RecipePage></RecipePage>
+      
+      <ProductMessageBanner text="DELICIOUS ALL-NATURAL NUT BUTTERS"></ProductMessageBanner>
       
         <Routes>
           <Route path="/" element={<ProductPage selectedProduct={selectedProduct} handleProductSelect={handleProductSelect}></ProductPage>}></Route>

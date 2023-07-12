@@ -30,7 +30,6 @@ const ProductPage = (props) => {
                             </img>
                         </div>
                         <div className={classes.containerProductInfo}>
-                            <div className={classes.productSize}>{item.size}</div>
                             <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
                         </div>
@@ -47,9 +46,9 @@ const ProductPage = (props) => {
                             </img>
                         </div>
                         <div className={classes.containerProductInfo}>
-                            <div className={classes.productSize}>{item.size}</div>
-                            <div className={classes.productName}>{item.name}</div>
+                            <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
+                            <button className={classes.button}>Order Now</button>
                         </div>
                     </Card>
                 </Link>

@@ -1,0 +1,10 @@
+.container { 
+    display: flex;
+    align-items: center;
+    background-color: #FEC66A;
+}
+
+.message { 
+    font-family: RalewayBlack;
+    font-size: 150%;
+}
