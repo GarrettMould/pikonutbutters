@@ -56,7 +56,7 @@ const StoreListPage = () => {
 
    
         <Container className={classes.container}>
-    <Row className={classes.row}><Headline text="Store Locator"></Headline></Row>
+    <Row className={classes.row}><Headline text="STORE LOCATOR"></Headline></Row>
 
 
     <div className={classes.message}>Piko is a proud partner with many local grocery stores in the Tay Ho and Truc Bach area. We are also a familar face at many local markets and community events in Hanoi.</div>

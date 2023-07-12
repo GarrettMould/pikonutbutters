@@ -62,7 +62,7 @@ const ProductDetailsPage = (props) => {
           <div className={classes.ingredients}>Ingredients: <span> {selectedItemInfo.ingredients}</span></div>
           <Dropdown className={classes.dropdown}>
                   <Dropdown.Toggle variant="dark" id="dropdown-basic" className={classes.dropdownToggle}>
-                    Order
+                    ORDER
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu className={classes.menu}>
@@ -87,7 +87,7 @@ const ProductDetailsPage = (props) => {
           <div className={classes.ingredients}>Ingredients: <span> {selectedItemInfo.ingredients}</span></div>
           <Dropdown className={classes.dropdown}>
                   <Dropdown.Toggle variant="dark" id="dropdown-basic" className={classes.dropdownToggle}>
-                    Order
+                    ORDER
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu className={classes.menu}>

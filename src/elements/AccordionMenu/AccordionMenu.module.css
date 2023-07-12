@@ -7,7 +7,7 @@
 }
 
 .header { 
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBlack";
 }
 
 .nutritionRow { 
@@ -15,11 +15,11 @@
 }
 
 .category, .question { 
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBlack";
 }
 
 .figure, .answer { 
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBold";
     color: grey;
 }
 

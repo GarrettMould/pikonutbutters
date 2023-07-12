@@ -1,0 +1,28 @@
+.message { 
+    font-family: "RalewayBlack";
+    font-size: 250%; 
+}
+
+.container { 
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .message { 
+        font-family: "RalewayBlack";
+        font-size: 180%; 
+    }
+    
+    .container { 
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  
+  }

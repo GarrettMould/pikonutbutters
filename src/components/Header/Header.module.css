@@ -40,11 +40,11 @@ nav {
 
   .navItem {
     text-decoration: none;
-    color: #333;
-    font-family: "JosefSansBold";
+    color: black;
+    font-family: "RalewayBlack";
     text-decoration: none;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 20px;
     border-radius: 5px;
   }
   
@@ -63,14 +63,14 @@ nav {
     border: none !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
-    font-size: 15px !important;
+    font-size: 20px !important;
     border-radius: 0 !important;
-    font-family: "JosefSansBold" !important;
+    font-family: "RalewayBlack" !important;
   }
 
   .dropdownItem { 
-    font-size: 15px !important;
-    font-family: "JosefSansBold" !important;
+    font-size: 20px !important;
+    font-family: "RalewayBlack" !important;
   }
 
 

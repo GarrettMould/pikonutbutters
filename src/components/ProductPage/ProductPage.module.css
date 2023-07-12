@@ -44,20 +44,28 @@
     padding: 5px 0px;
     width: 60px; 
     height: 25px; 
-    font-family: JosefSansRegular;
+    font-family: RalewayBold;
     color: white;
 }
 
+.productSize { 
+    padding: 20px 0px 0px 0px;
+    font-size: 130%;
+    font-family: RalewayBlack;
+    color: #44C8F5;
+}
+
 .productName { 
-    padding: 20px 0px 10px 0px;
-    font-size: 120%;
-    font-family: JosefSansSemiBold;
+    padding: 10px 0px 10px 0px;
+    font-size: 130%;
+    font-family: RalewayBlack;
 }
 
 .productPrice { 
     padding-bottom: 10px;
     font-size: 110%; 
-    font-family: JosefSansRegular;
+    color: #363636;
+    font-family: RalewayBold;
 }
 
 .button { 
@@ -91,20 +99,27 @@
         width: 45px; 
         font-size: 85%;
         height: 25px; 
-        font-family: JosefSansRegular;
+        font-family: RalewayBold;
         color: white;
     }
 
+    .productSize { 
+        padding: 20px 0px 0px 0px;
+        font-size: 100%;
+        font-family: RalewayBlack;
+        color: #44C8F5;
+    }
+
     .productName { 
-        padding: 10px 0px 5px 0px;
+        padding: 5px 0px 5px 0px;
         font-size: 110%;
-        font-family: JosefSansSemiBold;
+        font-family: RalewayBlack;
     }
     
     .productPrice { 
         padding-bottom: 5px;
         font-size: 100%; 
-        font-family: JosefSansRegular;
+        font-family: RalewayBold;
     }
 
     .card { 

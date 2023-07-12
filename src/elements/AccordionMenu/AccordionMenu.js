@@ -12,30 +12,30 @@ const AccordionMenu = (props) => {
   return (
     <Accordion className={classes.accordion}>
       <Accordion.Item eventKey="0" className={classes.item}>
-        <Accordion.Header className={classes.header}>Nutritional Facts</Accordion.Header>
+        <Accordion.Header className={classes.header}>NUTRITIONAL FACTS</Accordion.Header>
         <Accordion.Body>
           <div className={classes.nutritionRow}>
-            <div className={classes.category}>Serving Size:</div>
+            <div className={classes.category}>SERVING SIZE:</div>
             <div className={classes.figure}>&nbsp;1 tablespoon</div>
           </div>
           <div className={classes.nutritionRow}>
-            <div className={classes.category}>Calories:</div>
+            <div className={classes.category}>CALORIES:</div>
             <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.calories}</div>
           </div>
           <div className={classes.nutritionRow}>
-            <div className={classes.category}>Total Fat:</div>
+            <div className={classes.category}>TOTAL FAT:</div>
             <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.total_fat}</div>
           </div>
           <div className={classes.nutritionRow}>
-            <div className={classes.category}>Saturated Fat:</div>
+            <div className={classes.category}>SATURATED FAT:</div>
             <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.sat_fat}</div>
           </div>
           <div className={classes.nutritionRow}>
-            <div className={classes.category}>Sugar</div>
+            <div className={classes.category}>SUGAR</div>
             <div className={classes.figure}>&nbsp; {selectedItemInfo.nutrition.sugar}</div>
           </div>
           <div className={classes.nutritionRow}>
-            <div className={classes.category}>Protein</div>
+            <div className={classes.category}>PROTEIN</div>
             <div className={classes.figure}>&nbsp;{selectedItemInfo.nutrition.protein}</div>
           </div>
         </Accordion.Body>

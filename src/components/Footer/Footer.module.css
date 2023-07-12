@@ -31,7 +31,7 @@
     font-size: 100%;
     color: white; 
     text-decoration: none;
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBlack";
   }
 
 .logo {
@@ -40,7 +40,7 @@
 }
 
 .font { 
-    font-family: JosefSansMedium;
+    font-family: RalewayBlack;
     color: white;
 }
 
@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: JosefSansRegular;
+    font-family: RalewayBlack;
     color: white;
 
 }
@@ -88,7 +88,7 @@
     color: white; 
     text-decoration: none;
     font-size: 100%;
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBlack";
   }
 
   .innerBox { 
@@ -103,7 +103,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: JosefSansMedium;
+    font-family: RalewayBlack;
 }
 
 .logo {

@@ -28,9 +28,9 @@ const ProductPage = (props) => {
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
                             </img>
-                            <div className={classes.size}>{item.size}</div>
                         </div>
                         <div className={classes.containerProductInfo}>
+                            <div className={classes.productSize}>{item.size}</div>
                             <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
                         </div>
@@ -45,9 +45,9 @@ const ProductPage = (props) => {
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
                             </img>
-                            <div className={classes.size}>{item.size}</div>
                         </div>
                         <div className={classes.containerProductInfo}>
+                            <div className={classes.productSize}>{item.size}</div>
                             <div className={classes.productName}>{item.name}</div>
                             <div className={classes.productPrice}>{item.price}</div>
                         </div>
@@ -66,8 +66,6 @@ const ProductPage = (props) => {
 
   return (
     <Container className={classes.container}>
-        
-        <Row className={classes.row}><Headline text="Products"></Headline></Row>
         <Row className={classes.row}>
            {mappedItems}
         </Row>

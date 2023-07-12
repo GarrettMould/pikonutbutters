@@ -11,6 +11,8 @@ import RecipePage from "../components/RecipePage/RecipePage"
 import StoreListPage from "../components/StoreListPage/StoreListPage"
 import ProductDetailsPage from "../components/ProductDetailsPage/ProductDetailsPage";
 import Footer from "../components/Footer/Footer";
+import ProductMessageBanner from "../elements/ProductMessageBanner/ProductMessageBanner";
+import ColorBlocks from "../components/ColorBlocks/ColorBlocks";
 
 const App = () => {
 
@@ -27,6 +29,9 @@ const App = () => {
     <TopBanner></TopBanner>
       <div className={classes.app}>
       <Header></Header>
+      <ColorBlocks></ColorBlocks>
+      <ProductMessageBanner></ProductMessageBanner>
+      
         <Routes>
           <Route path="/" element={<ProductPage selectedProduct={selectedProduct} handleProductSelect={handleProductSelect}></ProductPage>}></Route>
           <Route path="/recipes" element={<RecipePage></RecipePage>}></Route>

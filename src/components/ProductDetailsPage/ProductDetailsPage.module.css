@@ -51,21 +51,21 @@
 .productTitle { 
     text-align: start;
     font-size: 175%;
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBlack";
     margin-bottom: 10px;
 }
 
 .productPrice { 
     text-align: start;
     font-size: 150%;
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBold";
     margin-bottom: 15px;
 }
 
 .productDescription {
     text-align: start; 
     font-size: 110%;
-    font-family: "JosefSansLight";
+    font-family: "RalewayRegular";
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -73,12 +73,12 @@
 .ingredients { 
     text-align: start; 
     font-size: 110%;
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBold";
     margin-bottom: 15px;
 }
 
 .ingredients span { 
-    font-family: "JosefSansLight";
+    font-family: "RalewayRegular";
     font-weight: bold;
 }
 
@@ -93,7 +93,7 @@
 
 .orderText { 
     font-size: 120%;
-    font-family: "JosefSansMedium";
+    font-family: "RalewayBlack";
 }
 
 .menu { 
@@ -111,13 +111,13 @@
     padding-left: 15px !important;
     padding-right: 15px !important;
     border-radius: 0 !important;
-    font-family: "JosefSansMedium" !important;
+    font-family: "RalewayBold" !important;
     font-size: 110% !important;
   }
 
   .dropdownItem { 
     width: 100% !important;
-    font-family: "JosefSansMedium" !important;
+    font-family: "RalewayBold" !important;
   }
 
   @media screen and (max-width: 768px) {
@@ -131,7 +131,7 @@
     .productTitle { 
         text-align: start;
         font-size: 160%;
-        font-family: "JosefSansMedium";
+        font-family: "RalewayBlack";
         margin-top: 20px;
         margin-bottom: 10px;
     }
@@ -139,14 +139,14 @@
     .productPrice { 
         text-align: start;
         font-size: 140%;
-        font-family: "JosefSansMedium";
+        font-family: "RalewayBold";
         margin-bottom: 10px;
     }
     
     .productDescription {
         text-align: start; 
         font-size: 110%;
-        font-family: "JosefSansLight";
+        font-family: "RalewayRegular";
         font-weight: bold;
         margin-bottom: 15px;
     }
@@ -154,12 +154,12 @@
     .ingredients { 
         text-align: start; 
         font-size: 110%;
-        font-family: "JosefSansMedium";
+        font-family: "RalewayBold";
         margin-bottom: 15px;
     }
 
     .ingredients span { 
-        font-family: "JosefSansLight";
+        font-family: "RalewayRegular";
         font-weight: bold;
     }
     
@@ -174,7 +174,7 @@
     
     .orderText { 
         font-size: 120%;
-        font-family: "JosefSansMedium";
+        font-family: "RalewayBlack";
     }
     
   

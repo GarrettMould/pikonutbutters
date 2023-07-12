@@ -17,7 +17,7 @@
     text-align: start;
     font-size: 125%;
     line-height: 170%;
-    font-family: "JosefSansLight";
+    font-family: "RalewayRegular";
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -42,7 +42,7 @@
     display: flex;
     font-size: 110%;
     align-self: flex-start;
-    font-family: "JosefSansRegular";
+    font-family: "RalewayBold";
 }
 
 
@@ -54,7 +54,7 @@
     background-color: black;
     width: 100%; 
     color: white;
-    font-family: "JosefSansRegular";
+    font-family: "RalewayBold";
     font-size: 110%;
 }
 
@@ -78,7 +78,7 @@
         text-align: start;
         font-size: 110%;
         line-height: 180%;
-        font-family: JosefSansLight;
+        font-family: RalewayRegular;
         margin-top: 10px;
     }
 
@@ -95,14 +95,14 @@
         display: flex;
         font-size: 100%;
         text-align: start;
-        font-family: "JosefSansRegular";
+        font-family: "RalewayBold";
     }
 
     .address { 
         font-size: 90%;
         color: grey;
         text-align: start;
-        font-family: "JosefSansRegular";
+        font-family: "RalewayBold";
 
     }
 
@@ -121,7 +121,7 @@
         background-color: black;
         width: 100%; 
         color: white;
-        font-family: "JosefSansRegular";
+        font-family: "RalewayBold";
         font-size: 100%;
     }
   

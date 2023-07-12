@@ -1,0 +1,100 @@
+.blockOne {  
+    margin: 30px -100px 0px -100px;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    background-color: #6DCFF6;
+    padding: 0px !important;
+}
+
+.blockTwo {  
+    margin: 0px -100px;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    background-color: #FEC66A;
+    padding: 0px !important;
+}
+
+.blockThree {  
+    margin: 0px -100px;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    background-color: #86CA96;
+    padding: 0px !important;
+}
+
+#peanutButter { 
+    height: 500px;
+    
+}
+
+.messageContainer { 
+    padding: 50px;
+}
+
+.message { 
+    line-height: 130%;
+    text-align: start;
+    font-family: "RalewayBlack";
+    font-size: 450%;
+}
+
+.message span { 
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .blockOne {  
+        margin: 30px -20px 0px -20px;
+        height: 500px; 
+        display: flex;
+        align-items: start;
+        background-color: #6DCFF6;
+        padding: 0px !important;
+    }
+    
+    .blockTwo {  
+        margin: 0px -20px;
+        height: 500px; 
+        display: flex;
+        align-items: start;
+        background-color: #FEC66A;
+        padding: 0px !important;
+    }
+    
+    .blockThree {  
+        margin: 0px -20px;
+        height: 500px; 
+        display: flex;
+        align-items: start;
+        background-color: #86CA96;
+        padding: 0px !important;
+    }
+    
+    #peanutButter { 
+        height: 500px;
+        
+    }
+    
+    .messageContainer { 
+        padding: 75px 30px 30px 30px;
+    }
+    
+    .message { 
+        line-height: 130%;
+        text-align: start;
+        font-family: "RalewayBlack";
+        font-size: 250%;
+    }
+    
+    .message span { 
+        color: white;
+    }
+    
+
+  
+  }
