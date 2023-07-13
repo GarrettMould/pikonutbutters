@@ -15,6 +15,7 @@ import ProductMessageBanner from "../elements/ProductMessageBanner/ProductMessag
 import ColorBlocks from "../components/ColorBlocks/ColorBlocks";
 import PikoStoryPage from "../components/PikoStoryPage/PikoStoryPage";
 import SocialConnectBanner from "../components/SocialConnectBanner/SocialConnectBanner";
+import PikoMinisBanner from "../components/PikoMinisBanner/PikoMinisBanner";
 
 const App = () => {
 
@@ -31,9 +32,10 @@ const App = () => {
     <TopBanner></TopBanner>
       <div className={classes.app}>
       <Header></Header>
+      <PikoMinisBanner></PikoMinisBanner>
       <ColorBlocks></ColorBlocks>
       <PikoStoryPage></PikoStoryPage>
-  
+      <SocialConnectBanner></SocialConnectBanner>
       <RecipePage></RecipePage>
       
       <ProductMessageBanner text="DELICIOUS ALL-NATURAL NUT BUTTERS"></ProductMessageBanner>

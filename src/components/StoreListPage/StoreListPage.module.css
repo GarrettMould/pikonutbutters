@@ -62,6 +62,24 @@
     opacity: 85%; 
 }
 
+.rowBlue { 
+    margin: 0 -110px;
+    background-color: #86CA96;
+}
+.contactMessage { 
+    font-size: 180%;
+    font-family: "RalewayBlack";
+}
+
+.zalo { 
+    font-size: 180%;
+    font-family: "RalewayBlack";
+    color: white;
+}
+
+.zalo span { 
+    border-bottom: 4px solid white;
+}
 
 @media screen and (max-width: 768px) {
 

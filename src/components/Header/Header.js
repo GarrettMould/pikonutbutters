@@ -30,9 +30,9 @@ const Header = () => {
         <Link to="/"><img src={logoNEW} className={classes.logo} alt="logo"></img>
         </Link>
             <ul>
-                <li><Link to="/" style={{ textDecoration: 'none', color: "black" }}><a className={classes.navItem} href="#products">PRODUCTS</a></Link></li>
+                <li><Link to="/" style={{ textDecoration: 'none', color: "black" }}><a className={classes.navItem} href="#products"><span>PRODUCTS</span></a></Link></li>
                 {/*<li><Link to="/recipes" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>RECIPES</a></Link></li>*/}
-                <li><Link to="/stores" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}>FIND IN STORES</a></Link></li>
+                <li><Link to="/stores" style={{ textDecoration: 'none', color: "black" }}><a href="#recipes" className={classes.navItem}><span>FIND IN STORES</span></a></Link></li>
                 <li>
                 <Dropdown>
                   <Dropdown.Toggle variant="dark" id="dropdown-basic" className={classes.dropdownToggle}>

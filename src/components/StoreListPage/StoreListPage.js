@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Media from 'react-media';
 import mapIcon from "../../images/map-pin-bold.png"
 import { stores } from '../../StoreInformation';
+import ProductMessageBanner from '../../elements/ProductMessageBanner/ProductMessageBanner';
 
 
 const StoreListPage = () => {
@@ -56,7 +57,7 @@ const StoreListPage = () => {
 
    
         <Container className={classes.container}>
-    <Row className={classes.row}><Headline text="STORE LOCATOR"></Headline></Row>
+    <Row className={classes.row}><ProductMessageBanner text="FIND PIKO IN A STORE NEAR YOU"></ProductMessageBanner></Row>
 
 
     <div className={classes.message}>Piko is a proud partner with many local grocery stores in the Tay Ho and Truc Bach area. We are also a familar face at many local markets and community events in Hanoi.</div>
@@ -64,6 +65,10 @@ const StoreListPage = () => {
     <div className={classes.list}>
       {mappedStores}
     </div>
+    <Row className={classes.rowBlue}>
+      <div className={classes.contactMessage}>Interested in carrying Piko products at your Hanoi store? Please reach out!</div>
+      <div className={classes.zalo}>Zalo: <span>+0824675798</span></div>
+    </Row>
     </Container>
     
   )

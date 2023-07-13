@@ -48,9 +48,11 @@ nav {
     border-radius: 5px;
   }
   
+  .navItem span:hover { 
+    border-bottom: 4px solid black;
+  }
   nav a:hover {
     color: black;
-    text-decoration: underline;
   }
 
   .menu { 

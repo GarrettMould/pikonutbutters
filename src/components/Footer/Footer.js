@@ -39,9 +39,9 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col xs={6} className={classes.justifyEnd}>
-                      <Link to="/" style={{ textDecoration: 'none' }}><div className={classes.footerItem}>Products</div></Link>
-                      <Link to="/stores" style={{ textDecoration: 'none' }}><div className={classes.footerItem}>Find in Stores</div></Link>
-                      <a href="https://www.instagram.com/piko.butter/" target='_blank' rel='noreferrer' className={classes.footerItem}>Connect</a>
+                      <Link to="/" style={{ textDecoration: 'none' }}><div className={classes.footerItem}>PRODUCTS</div></Link>
+                      <Link to="/stores" style={{ textDecoration: 'none' }}><div className={classes.footerItem}>FIND IN STORES</div></Link>
+                      <a href="https://www.instagram.com/piko.butter/" target='_blank' rel='noreferrer' className={classes.footerItem}>CONNECT</a>
                     </Col>
 
                     <Col xs={6} className={classes.alignCenter}><div className={classes.logoRow}><img src={logoNEW} alt="brand" className={classes.logo}></img></div>

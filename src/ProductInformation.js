@@ -33,7 +33,7 @@ export var items = [
         size: "380g", 
         price: "100,000 vnd", 
         images: [pb220_1, pb220_2, combo_1],
-        description: "Piko's all-natural peanut butter made with just two simple ingredients: peanuts and salt. With no added sugars or preservatives, this creamy and delicious peanut butter is perfect for those looking for a healthy and natural snack option. Enjoy it on toast, in a smoothie, or simply by the spoonful.", 
+        description: "Piko's all-natural peanut butter made with just two simple ingredients: peanuts and salt. With no added sugars or preservatives, this creamy and delicious peanut butter is perfect for those looking for a healthy and natural snack option.", 
         ingredients: "Roasted Peanuts, Salt", 
         nutrition: { 
             calories: "100", 
