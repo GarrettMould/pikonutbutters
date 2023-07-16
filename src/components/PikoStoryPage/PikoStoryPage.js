@@ -1,14 +1,18 @@
 import React from 'react'
 import classes from "./PikoStoryPage.module.css"
 import Headline from '../../elements/Headline/Headline'
+import logoNEW from '../../images/logoNEW.png'
 import ProductMessageBanner from '../../elements/ProductMessageBanner/ProductMessageBanner'
 
 const PikoStoryPage = () => {
   return (
     <>
     <div className={classes.container}>
-        <ProductMessageBanner text="PIKO'S MISSION"></ProductMessageBanner>
-        <div className={classes.message}>We are the farm! Our co-founder and his family planted the first medjool date palm on their ranch nearly two decades ago in the Coachella Valley of Southern California. We proudly guarantee the entire journey of these organic beauties from the time they leave our palms 🌴 until they land in yours </div>
+      <img src={logoNEW} className={classes.logo}></img>
+        <ProductMessageBanner text="OUR MISSION"></ProductMessageBanner>
+        <div className={classes.message}>Healthy snack options should be affordable and easy to find. At Piko Nut Butters, we strive to craft delicious nut butters using only the finest high-quality ingredients. Whether you add it to your morning smoothie, or enjoy it spread on toast, your next healthy snack is only a spoon’s scoop away. 
+
+</div>
     </div>
     
     </>

@@ -16,6 +16,7 @@ import ColorBlocks from "../components/ColorBlocks/ColorBlocks";
 import PikoStoryPage from "../components/PikoStoryPage/PikoStoryPage";
 import SocialConnectBanner from "../components/SocialConnectBanner/SocialConnectBanner";
 import PikoMinisBanner from "../components/PikoMinisBanner/PikoMinisBanner";
+import HomePage from "../components/HomePage/HomePage";
 
 const App = () => {
 
@@ -32,19 +33,18 @@ const App = () => {
     <TopBanner></TopBanner>
       <div className={classes.app}>
       <Header></Header>
-      <PikoMinisBanner></PikoMinisBanner>
-      <ColorBlocks></ColorBlocks>
-      <PikoStoryPage></PikoStoryPage>
-      <SocialConnectBanner></SocialConnectBanner>
-      <RecipePage></RecipePage>
       
-      <ProductMessageBanner text="DELICIOUS ALL-NATURAL NUT BUTTERS"></ProductMessageBanner>
+      {/*<SocialConnectBanner></SocialConnectBanner>*/}
+      {/*<RecipePage></RecipePage>*/}
+      
+      
       
         <Routes>
-          <Route path="/" element={<ProductPage selectedProduct={selectedProduct} handleProductSelect={handleProductSelect}></ProductPage>}></Route>
+          <Route path="/" element={<HomePage></HomePage>}></Route>
+          <Route path="/products" element={<ProductPage selectedProduct={selectedProduct} handleProductSelect={handleProductSelect}></ProductPage>}></Route>
           <Route path="/recipes" element={<RecipePage></RecipePage>}></Route>
           <Route path="/stores" element={<StoreListPage></StoreListPage>}></Route>
-          <Route path="/product" element={<ProductDetailsPage selectedProduct={selectedProduct}></ProductDetailsPage>}></Route>
+          <Route path="/productDetails" element={<ProductDetailsPage selectedProduct={selectedProduct}></ProductDetailsPage>}></Route>
         </Routes>
       </div>
       <Footer></Footer>

@@ -5,8 +5,66 @@ import alm220_2 from "../src/images/alm220_2.jpg"
 import alm220_3 from "../src/images/alm220_3.jpg"
 import pb220_2 from "../src/images/pb220_2.jpg"
 import combo_1 from "../src/images/combo_1.jpg"
+import pb_mini from "../src/images/pb_mini.png"
+import alm_mini from "../src/images/alm_mini.png"
+import cashew_mini from "../src/images/cashew_mini.png"
+import piko_mini_combo from "../src/images/piko_mini_combo.png"
 import coming_soon from "../src/images/coming_soon.png"
 export var items = [
+    { 
+        id: 6,
+        name: "PIKO MINI PEANUT BUTTER", 
+        mobileLineOne: "PIKO MINI", 
+        mobileLineTwo: "PEANUT BUTTER",
+        size: "120g", 
+        price: "35,000 vnd",
+        images: [pb_mini], 
+        description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
+        ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 
+        nutrition: { 
+            calories: "170", 
+            total_fat: "10 grams", 
+            sat_fat: "1.4 grams", 
+            sugar: "7 gram", 
+            protein: "4 grams"
+        }
+    },
+    { 
+        id: 7,
+        name: "PIKO MINI ALMOND BUTTER", 
+        mobileLineOne: "PIKO MINI", 
+        mobileLineTwo: "ALMOND BUTTER",
+        size: "120g", 
+        price: "55,000 vnd",
+        images: [alm_mini], 
+        description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
+        ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 
+        nutrition: { 
+            calories: "170", 
+            total_fat: "10 grams", 
+            sat_fat: "1.4 grams", 
+            sugar: "7 gram", 
+            protein: "4 grams"
+        }
+    },
+    { 
+        id: 8,
+        name: "PIKO MINI CASHEW BUTTER", 
+        mobileLineOne: "PIKO MINI", 
+        mobileLineTwo: "CASHEW BUTTER",
+        size: "120g", 
+        price: "45,000 vnd",
+        images: [cashew_mini], 
+        description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
+        ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 
+        nutrition: { 
+            calories: "170", 
+            total_fat: "10 grams", 
+            sat_fat: "1.4 grams", 
+            sugar: "7 gram", 
+            protein: "4 grams"
+        }
+    },
     { 
         id: 0,
         name: "ALL-NATURAL PEANUT BUTTER", 
@@ -81,12 +139,12 @@ export var items = [
     }, 
     { 
         id: 4,
-        name: "PIKO COMBO PACK", 
-        mobileLineOne: "PIKO COMBO PACK", 
-        mobileLineTwo: "",
-        size: "220g", 
-        price: "180,000 vnd",
-        images: [combo_1], 
+        name: "PIKO MINI COMBO PACK", 
+        mobileLineOne: "PIKO MINI", 
+        mobileLineTwo: "COMBO PACK",
+        size: "120g", 
+        price: "130,000 vnd",
+        images: [piko_mini_combo], 
         description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
         ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 
         nutrition: { 
@@ -99,11 +157,11 @@ export var items = [
     },
     { 
         id: 5,
-        name: "PIKO COMBO PACK", 
-        mobileLineOne: "PIKO COMBO PACK", 
-        mobileLineTwo: "",
-        size: "380g", 
-        price: "300,000 vnd",
+        name: "PIKO 220G COMBO PACK", 
+        mobileLineOne: "PIKO 220G", 
+        mobileLineTwo: "COMBO PACK",
+        size: "220g", 
+        price: "180,000 vnd",
         images: [combo_1], 
         description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry. Use them on toast, in smoothies, or enjoy them by the spoonful.", 
         ingredients: "Roasted Peanuts, Salt, Roasted Almonds, Coconut Oil", 

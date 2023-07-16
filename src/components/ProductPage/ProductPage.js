@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Headline from '../../elements/Headline/Headline';
 import { Link } from 'react-router-dom'
 import { items } from '../../ProductInformation';
+import ProductMessageBanner from '../../elements/ProductMessageBanner/ProductMessageBanner';
 
 import Media from 'react-media';
 
@@ -23,7 +24,7 @@ const ProductPage = (props) => {
           {matches =>
             matches.small ? (
                 <Col xs={6} className={classes.col}>
-                <Link to="/product" style={{ textDecoration: 'none', color: "black" }}>
+                <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}>
                     <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
@@ -39,7 +40,7 @@ const ProductPage = (props) => {
              
             ) : (
                 <Col xs={4} className={classes.col}>
-                <Link to="/product" style={{ textDecoration: 'none', color: "black" }}>
+                <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}>
                     <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
@@ -65,6 +66,7 @@ const ProductPage = (props) => {
 
   return (
     <Container className={classes.container}>
+        <ProductMessageBanner text="DELICIOUS ALL-NATURAL NUT BUTTERS"></ProductMessageBanner>
         <Row className={classes.row}>
            {mappedItems}
         </Row>

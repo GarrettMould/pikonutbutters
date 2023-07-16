@@ -4,8 +4,8 @@
 }
 
 .container { 
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

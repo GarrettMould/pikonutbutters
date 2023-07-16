@@ -1,4 +1,5 @@
 import React from 'react'
+import cashew_cutout from "../../images/cashew_cutout.png"
 import classes from "./ColorBlocks.module.css"
 
 const ColorBlocks = () => {
@@ -23,6 +24,7 @@ const ColorBlocks = () => {
             <div className={classes.message}>
                 ENJOY PIKO<br></br> <span>BY THE SPOONFUL.</span>  
             </div>
+            <img src={cashew_cutout} className={classes.cashew}></img>
         </div>
     </div>
     </>

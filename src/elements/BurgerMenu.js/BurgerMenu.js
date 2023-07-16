@@ -80,7 +80,7 @@ const BurgerMenu = () => {
       isOpen={isOpen}
       styles={styles}
     >
-      <Link id="products" to="/" onClick={closeMenu} className={classes.menuItem}>Products</Link>
+      <Link id="products" to="/products" onClick={closeMenu} className={classes.menuItem}>Products</Link>
       <Link  id="stores" to="/stores" onClick={closeMenu} className={classes.menuItem}>Find in Stores</Link>
       <a id="shopee" className={classes.menuItem} onClick={closeMenu} href="https://shopee.vn/piko.nutbutters" target="_blank" rel='noreferrer'>Order on Shopee</a>
       <a id="forms" className={classes.menuItem}  onClick={closeMenu} href="https://online.forms.app/pikobutters/order-form" target="_blank" rel="noreferrer">Order on Forms.App</a>

@@ -25,6 +25,10 @@
     padding: 0px !important;
 }
 
+.cashew { 
+    max-width: 150px;
+}
+
 #peanutButter { 
     height: 500px;
     
@@ -32,6 +36,8 @@
 
 .messageContainer { 
     padding: 50px;
+    display: flex;
+    
 }
 
 .message { 
