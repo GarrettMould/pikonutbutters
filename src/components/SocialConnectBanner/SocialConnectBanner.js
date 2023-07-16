@@ -7,19 +7,21 @@ const SocialConnectBanner = () => {
   return (
     <div className={classes.container}>
       <ProductMessageBanner text="CONNECT WITH PIKO"></ProductMessageBanner>
-        <div className={classes.message}>Find new recipes, product information, and more <br></br>on Instagram <span>@piko.butter</span></div>
+        <div className={classes.message}>Find new recipes, hear about our latest products, and more on Instagram <span>@piko.butter</span></div>
         <Container>
-          <Row className={classes.row}>
-          <Col xs={3} className={classes.col}>
+          <Row>
+          <Col xs={6} className={classes.col}>
                 <div className={classes.square}></div>
             </Col>
-            <Col xs={3} className={classes.col}>
+            <Col xs={6} className={classes.col}>
                 <div className={classes.square}></div>           
             </Col>
-            <Col xs={3} className={classes.col}>          
+            </Row>
+            <Row>
+            <Col xs={6} className={classes.col}>          
                 <div className={classes.square}></div>        
             </Col>
-            <Col xs={3} className={classes.col}>           
+            <Col xs={6} className={classes.col}>           
                 <div className={classes.square}></div>           
             </Col>
           </Row>

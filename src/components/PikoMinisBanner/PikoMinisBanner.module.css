@@ -13,12 +13,13 @@
 
 .headerOne { 
     font-family: RalewayBlack;
-    font-size: 350%;
+    font-size: 320%;
 }
 
 .headerTwo { 
     font-family: RalewayBlack;
-    font-size: 200%;
+    font-size: 170%;
+    width: 90%;
 }
 
 .button { 
@@ -47,6 +48,5 @@
 }
 
 .img { 
-    max-width: 100px; 
-    height: 200px;
+    max-width: 150px;
 }

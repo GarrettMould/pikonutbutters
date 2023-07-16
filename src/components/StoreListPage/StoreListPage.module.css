@@ -64,17 +64,16 @@
 
 .rowBlue { 
     margin: 0 -110px;
-    background-color: #86CA96;
 }
 .contactMessage { 
-    font-size: 180%;
+    font-size: 150%;
     font-family: "RalewayBlack";
+    padding-bottom: 10px;
 }
 
 .zalo { 
-    font-size: 180%;
+    font-size: 130%;
     font-family: "RalewayBlack";
-    color: white;
 }
 
 .zalo span { 

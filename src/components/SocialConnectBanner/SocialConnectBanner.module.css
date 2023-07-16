@@ -2,34 +2,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FEC66A;
+    justify-content: center;
     margin: 0px -100px;
 }
 
 .message { 
     text-align: center;
+    width: 65%;
     font-family: RalewayBlack;
     font-size: 200%;
-    color: white; 
+     
 }
 
 .message span { 
-    color: black;
-    border-bottom: 4px solid black;
+    color: #6DCFF6;
+    border-bottom: 4px solid #6DCFF6;
 }
 
 .message span:hover { 
-    color: white; 
-    border-bottom: 4px solid white;
+    color: black; 
+    border-bottom: 4px solid black;
     cursor: pointer;
 }
 
 .row { 
-    padding: 40px 0px;
+    padding: 10px 0px;
+    width: 50%;
 }
 
 .square { 
-    width: 250px;
-    height: 250px; 
+    width: 100px;
+    height: 100px; 
     background-color: #D3D3D3;
 }
