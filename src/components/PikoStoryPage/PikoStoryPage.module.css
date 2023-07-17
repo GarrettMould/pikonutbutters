@@ -11,6 +11,7 @@
 }
 .logo { 
     max-width: 150px;
+    padding-bottom: 30px;
 }
 .message { 
     width: 75%;
@@ -18,3 +19,31 @@
     line-height: 200%;
     font-size: 175%;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .container { 
+        padding: 75px 0px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header { 
+        font-family: RalewayBlack;
+        font-size: 225%;
+    }
+    .logo { 
+        max-width: 100px;
+        padding-bottom: 15px;
+    }
+    .message { 
+        width: 90%;
+        font-family: RalewayRegular;
+        line-height: 200%;
+        font-size: 125%;
+    }
+    
+    
+      
+      }

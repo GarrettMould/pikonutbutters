@@ -24,7 +24,7 @@ const ProductPage = (props) => {
           {matches =>
             matches.small ? (
                 <Col xs={6} className={classes.col}>
-                <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}>
+                
                     <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
@@ -33,14 +33,15 @@ const ProductPage = (props) => {
                         <div className={classes.containerProductInfo}>
                             <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
+                            <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}><button className={classes.button}>Order Now</button></Link>
                         </div>
                     </Card>
-                </Link>
+                
                 </Col>
              
             ) : (
                 <Col xs={4} className={classes.col}>
-                <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}>
+                
                     <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
@@ -49,10 +50,10 @@ const ProductPage = (props) => {
                         <div className={classes.containerProductInfo}>
                             <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
-                            <button className={classes.button}>Order Now</button>
+                            <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}><button className={classes.button}>Order Now</button></Link>
                         </div>
                     </Card>
-                </Link>
+                
                 </Col>
             )
           }
