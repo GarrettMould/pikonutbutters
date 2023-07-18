@@ -35,7 +35,7 @@ const BurgerMenu = () => {
       width: '26px',
       height: '20px',
       right: '36px',
-      top: '93px'
+      top: '70px'
     },
     bmBurgerBars: {
       background: '#121212'

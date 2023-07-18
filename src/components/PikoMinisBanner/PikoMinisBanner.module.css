@@ -1,10 +1,11 @@
 .container { 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .messageContainer { 
     padding: 100px 0px;
-    width: 45%;
+    width: 70%;
     text-align: start;
     align-items: flex-start;
     display: flex; 
@@ -13,12 +14,13 @@
 
 .headerOne { 
     font-family: RalewayBlack;
-    font-size: 320%;
+    font-size: 550%;
+    line-height: 110%;
 }
 
 .headerTwo { 
     font-family: RalewayBlack;
-    font-size: 170%;
+    font-size: 220%;
     width: 90%;
 }
 
@@ -41,7 +43,7 @@
 }
 
 .imagesContainer { 
-    width: 50%;
+    width: 60%;
     display: flex; 
     align-items: center;
     justify-content: space-around;

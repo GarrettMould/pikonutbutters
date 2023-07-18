@@ -29,8 +29,8 @@ const PikoMinisBanner = () => {
       ) : (
         <div className={classes.container}>
     <div className={classes.messageContainer}>
-        <div className={classes.headerOne}>PIKO MINI SERIES</div>
-        <div className={classes.headerTwo}>Because good things come in small packages</div>
+        <div className={classes.headerOne}>PIKO MINIS</div>
+        <div className={classes.headerTwo}>Good things come in small packages</div>
         <Link to="/products"><button className={classes.button}>SHOP NOW</button></Link>
     </div>
     <div className={classes.imagesContainer}>

@@ -25,7 +25,7 @@ const ProductPage = (props) => {
             matches.small ? (
                 <Col xs={6} className={classes.col}>
                 
-                    <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
+                    <Card className={classes.card}>
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
                             </img>
@@ -33,16 +33,17 @@ const ProductPage = (props) => {
                         <div className={classes.containerProductInfo}>
                             <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
-                            <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}><button className={classes.button}>Order Now</button></Link>
                         </div>
+                        
                     </Card>
+                    <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}><button className={classes.button} onClick={() => props.handleProductSelect(item.id)}>Order Now</button></Link>
                 
                 </Col>
              
             ) : (
                 <Col xs={4} className={classes.col}>
                 
-                    <Card className={classes.card} onClick={() => props.handleProductSelect(item.id)}>
+                    <Card className={classes.card}>
                         <div className={classes.relativeContainer}>
                             <img src={item.images[0]} alt="product" className={classes.square}>
                             </img>
@@ -50,7 +51,7 @@ const ProductPage = (props) => {
                         <div className={classes.containerProductInfo}>
                             <div className={classes.productName}>{item.mobileLineOne}<br></br>{item.mobileLineTwo}</div>
                             <div className={classes.productPrice}>{item.price}</div>
-                            <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}><button className={classes.button}>Order Now</button></Link>
+                            <Link to="/productDetails" style={{ textDecoration: 'none', color: "black" }}><button className={classes.button}  onClick={() => props.handleProductSelect(item.id)}>Order Now</button></Link>
                         </div>
                     </Card>
                 
