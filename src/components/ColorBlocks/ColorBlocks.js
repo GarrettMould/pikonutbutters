@@ -29,7 +29,7 @@ const ColorBlocks = () => {
 <div className={classes.blockThree} id="peanutButter">
         <div className={classes.messageContainer}>
             <div className={classes.cashewMessage} id="cashewMessage">
-                ENJOY PIKO<br></br> <span>BY THE SPOONFUL.</span>  
+                ENJOY RIGHT<br></br> <span>OUT THE JAR.</span>  
             </div>
             <img src={cashew_cutout} className={classes.cashew}></img>
         </div>
