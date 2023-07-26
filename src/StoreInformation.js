@@ -34,5 +34,10 @@
         address: "74 To Ngoc Van, Quang An, Tay Ho",  
         url: "https://goo.gl/maps/sywHsnfSe4uMHqmG6", 
     },
+    {
+        name: "Naturally Vietnam", 
+        address: "Số 4, ngõ 67 ngách 67, 12 Tô Ngọc Vân, Quảng An, Tây Hồ", 
+        url: "https://goo.gl/maps/NqzYsTe6EReYiz268",
+    }
 
 ]

@@ -19,7 +19,7 @@ const Footer = () => {
                     <Col xs={6} className={classes.justifyEnd}>
                       <Link to="/" style={{ textDecoration: 'none' }}><div className={classes.footerItem}>Products</div></Link>
                       <Link to="/stores" style={{ textDecoration: 'none' }}><div className={classes.footerItem}>Find in Stores</div></Link>
-                      <a href="https://www.instagram.com/piko.butters/" target='_blank' rel='noreferrer' className={classes.footerItem}>Connect</a>
+                      <a href="https://www.instagram.com/piko.butter/" target='_blank' rel='noreferrer' className={classes.footerItem}>Connect</a>
                     </Col>
 
                     <Col xs={6}><div className={classes.logoRow}><img src={logoNEW} alt="brand" className={classes.logo}></img></div>

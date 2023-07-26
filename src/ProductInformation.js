@@ -143,7 +143,7 @@ export var items = [
         mobileLineOne: "PIKO MINI", 
         mobileLineTwo: "COMBO PACK",
         size: "120g", 
-        price: "130,000 vnd",
+        price: "150,000 vnd",
         images: [piko_mini_combo], 
         description: "Our nut butter combo pack is the perfect way to satisfy all of your cravings! Enjoy the creamy goodness of our all-natural peanut butter and cashew butter, as well as the rich flavor of our almond butter. With no added sugars or preservatives, these spreads are a nutritious and delicious addition to your pantry.", 
         ingredients: "Roasted Peanuts, Roasted Almonds, Roasted Cashews, Coconut Oil, Salt", 
